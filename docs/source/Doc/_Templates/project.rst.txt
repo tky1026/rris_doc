@@ -1,0 +1,28 @@
+=========
+<project>
+=========
+
+:Project name:
+   <package-name>
+
+:Members:
+   <maintainer> <email>
+
+   <maintainer> <email>
+
+:GitHub:
+    <github-link>
+
+----
+
+<abstract>
+
+----
+
+**Table of Contents:**
+
+<table-of-contents>
+
+----
+
+<package details>
