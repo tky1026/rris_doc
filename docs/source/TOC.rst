@@ -66,6 +66,7 @@ Table of Contents
    Documentation Guide <Doc/Guide/guide_doc>
    Coding Guidelines <Doc/Guide/guide_code>
    Glossary <Doc/Guide/glossary>
+   Cheat Sheet <Doc/Guide/cheat_sheet>
 
 
 .. toctree::
