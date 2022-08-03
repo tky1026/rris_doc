@@ -6,5 +6,5 @@ Perception Packages page
 .. toctree::
    :titlesonly:
    
-   Packages/pkg1
+   Curb Detection <Packages/pkg_curb_detection>
    Packages/pkg2

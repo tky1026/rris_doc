@@ -1,6 +1,6 @@
 # Build Documentation
 
-1. Create conda environment
+1. Create and activate conda environment
 
     ```bash
     conda create -n rris_doc python=3.6
@@ -17,6 +17,7 @@
     Install Sphinx and Read the Docs theme for Sphinx
     ```bash
     pip install sphinx sphinx-rtd-theme
+    pip install sphinx-copybutton
     ```
 
     (Optional) Install Markdown support

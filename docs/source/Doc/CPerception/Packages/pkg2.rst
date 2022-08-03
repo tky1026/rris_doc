@@ -8,23 +8,29 @@
 :Version:
    <version>
 
-:ROS:
-    <ros-version> <ros-distribution>
-
 :Language:
    ``<code-lang>``
+
+:ROS:
+   <ros-version> <ros-distribution>
 
 :Author:
    <author> <email>
 
 :Maintainer:
-    <maintainer> <email>
+   <maintainer> <email>
 
 :License:
    Proprietary, Rehabilitation Research Institute of Singapore (RRIS)
 
 :GitHub:
-    <github-link>
+   <github-link>
+
+:Relevance:
+   <related-topics>
+
+:Documentation:
+   <writer> <email>
 
 :Rendered:
    |today|

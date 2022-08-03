@@ -6,5 +6,5 @@ Perception Tools page
 .. toctree::
    :titlesonly:
    
-   Tools/lib1
+   Polylidar3D <Tools/lib_polylidar>
    Tools/lib2

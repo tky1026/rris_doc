@@ -64,6 +64,7 @@ Table of Contents
    :caption: Guide
 
    Documentation Guide <Doc/Guide/guide_doc>
+   Coding Guidelines <Doc/Guide/guide_code>
    Glossary <Doc/Guide/glossary>
 
 

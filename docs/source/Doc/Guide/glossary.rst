@@ -2,6 +2,8 @@
 Spelling, terms and glossary
 ============================
 
+.. _spelling-ref:
+
 Spelling
 ========
 
