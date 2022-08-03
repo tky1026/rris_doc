@@ -1,3 +1,5 @@
+.. _spelling-term-glossary:
+
 ============================
 Spelling, terms and glossary
 ============================

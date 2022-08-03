@@ -34,11 +34,15 @@ The most important conventions are summarized on this page, the rest can be foun
 
 #. **Title capitalization**
 
-   Use title case - ...
+   Use :ref:`title case <doc-sgl-title-case>` for the title of each documentation page and :ref:`sentence case <doc-sgl-sentence-case>` for headers within the document.
+   This means the sections and subsections will be capitalized like normal sentences,  first word is always capitalized and the rest is spelled as they would in “normal text”.
+
+   .. seealso:: 
+      * :ref:`doc-sgl-rules-title`
 
 #. **Spelling**
 
-   Use common spelling for British English. Some specific terms have a special speeling. See :ref:`spelling-ref`.
+   Use common spelling for British English. Some specific terms have a special spelling. See :ref:`spelling-ref`.
 
 #. **Coding guide for headers**
 
@@ -80,7 +84,7 @@ The most important conventions are summarized on this page, the rest can be foun
 .. toctree:: 
    :maxdepth: 1
 
-   Documentation/doc_spelling
+   Documentation/doc_writing
    Documentation/doc_structure
    Documentation/doc_format
    Documentation/doc_guide_rst
