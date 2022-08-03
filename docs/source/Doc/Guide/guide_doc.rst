@@ -12,7 +12,7 @@ coding guidelines, conventions, and provide links to `GitHub issues`_.
 Build this documentation
 ========================
 
-This documentation is rendered using Sphinx, and hosted on ...
+This documentation is rendered using Sphinx, and hosted on `Read the Docs <https://rris-doc-testing.readthedocs.io/en/latest/>`_.
 
 To build this documentation locally, please follow the instruction below:
 
@@ -106,4 +106,13 @@ reStructuredText & Sphinx
 
    TODO <../Test/file3>
 
+----
+
+Hosting this documentation
+==========================
+
+.. toctree:: 
+   :maxdepth: 1
+
+   Documentation/doc_hosting.rst
 
