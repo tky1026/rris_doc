@@ -21,6 +21,7 @@ A
 
 B
 
+`backend`,
 `BSD`
 
 C
@@ -85,20 +86,6 @@ U
 `UNIX`
 
 
-Terms
-=====
-
-How to use these terms:
-
-reStructuredText
-   Use :term:`reST` as abbreviation.
-
-reST
-   `reStructuredText <https://docutils.sourceforge.io/rst.html>`__ is a 'Markup
-   Syntax and Parser Domponent of `Docutils
-   <https://docutils.sourceforge.io/index.html>`__'.
-
-
 Glossary
 ========
 
@@ -106,8 +93,16 @@ What terms mean:
 
 .. glossary::
 
+   Markdown
+      `Markdown <https://www.markdownguide.org>`__ is a lightweight markup language for creating formatted text using a plain-text editor.
+
    reST
-      reStructuredText
+      `reStructuredText <https://docutils.sourceforge.io/rst.html>`__ is a 'Markup
+      Syntax and Parser Domponent of `Docutils
+      <https://docutils.sourceforge.io/index.html>`__'.
+
+   reStructuredText
+      Use :term:`reST` as abbreviation.
 
    .. Some special term
    ..    Description to this special term

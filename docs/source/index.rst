@@ -8,6 +8,8 @@ Welcome to RRIS Intelligence's documentation!
 
 Shared Control Team documentation page.
 
+Lastest Update: |today|
+
 .. include:: /TOC.rst
 
 `Rehabilitation Research Institute of Singapore (RRIS)`_

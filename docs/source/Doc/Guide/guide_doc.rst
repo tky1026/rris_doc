@@ -29,7 +29,10 @@ Documentation content style guide
 This contains conventions, coding guidelines and best practices for contributing to this documentation.
 In general, the documentation follows the conventions as described in the following sections.
 
-The most important conventions are summarized on this page, the rest can be found in the subchapters.
+We mainly uses :term:`reStructuredText(reST) <reST>` markup language for writing docuementation, the file ending of reST files is ``.rst``.
+However, :term:`Markdown` format with file ending ``.md`` is acceptable as well.
+
+The most important conventions for writing reST files are summarized on this page, the rest can be found in the subchapters.
 
 
 #. **Title capitalization**
