@@ -128,8 +128,4 @@ Hosting this documentation
 Contribution Guide
 ==================
 
-.. toctree:: 
-   :maxdepth: 1
-
-   Documentation/doc_contribution.rst
-
+Read the :ref:`contribution guide <howto-contribute-doc>` on how to contribute to this documentation.

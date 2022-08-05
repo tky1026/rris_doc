@@ -66,11 +66,13 @@ N
 
 P
 
+`PDF`,
 `Proprietary`,
 `Python`
 
 R
 
+`Read the Docs`,
 `reStructuredText`,
 `reST`,
 `ROS1`, 
@@ -103,6 +105,9 @@ What terms mean:
 
    reStructuredText
       Use :term:`reST` as abbreviation.
+
+   Sphinx
+      `Sphinx <https://www.sphinx-doc.org/en/master/>`_ is a powerful documentation generator that has many great features for writing technical documentation.
 
    .. Some special term
    ..    Description to this special term

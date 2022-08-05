@@ -1,5 +1,7 @@
+.. _howto-contribute-doc:
+
 ================================
 Documentation Contribution Guide
 ================================
 
-Guide for contributing to this documentation on GitHub.
+How to contribute to this documentation.
