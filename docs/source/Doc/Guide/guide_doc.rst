@@ -123,3 +123,13 @@ Hosting this documentation
 
    Documentation/doc_hosting.rst
 
+----
+
+Contribution Guide
+==================
+
+.. toctree:: 
+   :maxdepth: 1
+
+   Documentation/doc_contribution.rst
+

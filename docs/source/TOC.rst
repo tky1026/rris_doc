@@ -67,6 +67,7 @@ Table of Contents
    Coding Guidelines <Doc/Guide/guide_code>
    Glossary <Doc/Guide/glossary>
    Cheat Sheet <Doc/Guide/cheat_sheet>
+   Learning Resources <Doc/Guide/learning>
 
 
 .. toctree::
