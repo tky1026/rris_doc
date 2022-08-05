@@ -33,31 +33,31 @@ Table of Contents
    :maxdepth: 2
    :caption: Control
 
-   Doc/Test/file3
+   Packages <Doc/CControl/packages.rst>
 
 .. toctree:: 
    :maxdepth: 2
    :caption: Embedded
 
-   Doc/Test/file3
+   Doc/CEmbedded/embed1
 
 .. toctree:: 
    :maxdepth: 2
    :caption: User Interface
 
-   Doc/Test/file3
+   Doc/CUserInterface/ui1
 
 .. toctree:: 
    :maxdepth: 2
    :caption: Misc
 
-   Doc/Test/file3
+   Packages <Doc/CMisc/packages.rst>
 
 .. toctree:: 
    :maxdepth: 2
    :caption: Experiment
 
-   Doc/Test/file3
+   Tools <Doc/CExperiment/tools.rst>
 
 .. toctree::
    :maxdepth: 1
@@ -70,6 +70,11 @@ Table of Contents
    Learning Resources <Doc/Guide/learning>
    Glossary <Doc/Guide/glossary>
 
+.. toctree:: 
+   :maxdepth: 1
+   :caption: Resources
+
+   Dataset Repository <Doc/Resources/rsrs_dataset>
 
 .. toctree::
    :caption: Test
