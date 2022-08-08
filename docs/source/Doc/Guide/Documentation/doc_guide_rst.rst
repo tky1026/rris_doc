@@ -37,14 +37,66 @@ Example:
 
 * Here, lines 2-4 must be indented one level (3 spaces)
 
+Line length
+-----------
 
+* We do not enforce maximum line length in this documentation although some may suggest it is best to keep lines shorter than 80 characters.
+* If in doubt about the length: use short line!
 
+   * That way reST is readable as source as well
+   * Files can be easily edited directly on GitHub
+   * Files can be compared in a diff view
+
+Special characters
+------------------
+
+The only way to include "special" characters is to use them directly. 
+
+----
 
 .. _doc-cgl-headline-underline:
 
 Headline underlining
 ====================
 
+In reStructuredText it is possible to use any type of underlining. The first used will be recognized as level 1 etc.
+
+However, in order to make this documentation tidy and make it easier for other contributors to find their way around a file and pick the correct underlining for the header level.
+
+Use the conventions as defined in :ref:`code-rst-ref-headline-section`.
+
+This underlining is used **per (.rst)** file. It does not matter where in the toctree the file is. You always start with underlining for level 1 (title) in each file:
+
+.. code-block:: text
+
+   ========
+   1. Title
+   ========
+
+   2. Header Level 1
+   =================
+
+   3. Header Level 2
+   -----------------
+
+   4. Header Level 3
+   ~~~~~~~~~~~~~~~~~
+
+   5. Header Level 4
+   """""""""""""""""
+
+   6. Header Level 5
+   '''''''''''''''''
+
+   7. Header Level 6
+   ^^^^^^^^^^^^^^^^^
+
+   8. Header Level 7
+   #################
+
+   etc.
+
+----
 
 .. _doc-cgl-refer-gui:
 
