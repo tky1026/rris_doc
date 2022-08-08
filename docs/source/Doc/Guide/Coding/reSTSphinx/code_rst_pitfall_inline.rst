@@ -1,3 +1,5 @@
+.. _code-rst-pitfall-inline:
+
 ==========================
 Problems With Inline Style
 ==========================
