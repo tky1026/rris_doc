@@ -24,7 +24,7 @@ Whitespace and indentation
 * remove white space from the end of lines (no trailing tabs or spaces)
 * don’t use tabs, configure your editor to insert space characters when pressing :kbd:`Tab` key instead of tab characters.
 * one indentation level consists of **three spaces**
-* code examples use three spaces as indentation leve as well
+* code examples use three spaces as indentation level as well
 
 Example:
 
