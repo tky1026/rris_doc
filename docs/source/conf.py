@@ -16,7 +16,7 @@ language = 'en'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_copybutton']
+extensions = ['myst_parser', 'sphinx_copybutton', 'sphinx.ext.intersphinx']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -26,6 +26,11 @@ source_parsers = {
 }
 
 source_suffix = ['.rst', '.md']
+
+intersphinx_mapping = {
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    't3doc': ('https://rris-doc-testing.readthedocs.io/en/latest/', None),
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
