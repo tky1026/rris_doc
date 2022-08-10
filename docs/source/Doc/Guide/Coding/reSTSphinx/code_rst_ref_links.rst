@@ -312,7 +312,7 @@ Refer to :ref:`t3doc:spelling-ref`
 
 .. note:: 
 
-   This will require editting ``conf.py``, which consists of some important configurations of this documentation. 
+   This will require editing ``conf.py``, which consists of some important configurations of this documentation. 
    Please enquire the :ref:`maintainers <team-doc-maintainers>` before doing so. Otherwise, we still suggest creating a unique label method.
    
 

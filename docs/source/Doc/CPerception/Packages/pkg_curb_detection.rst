@@ -43,10 +43,13 @@ Curb detection for RRIS's Curb-Climbing Wheelchair.
 
 ----
 
-**Table of Contents:**
-
-<table-of-contents>
+.. contents:: Table of Contents
+   :local:
 
 ----
 
-<package details>
+Topic 1
+=======
+
+Topic 1.1
+---------

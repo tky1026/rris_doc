@@ -16,3 +16,4 @@ reST & Sphinx Reference
    code_rst_ref_content_menu
    code_rst_ref_include
    code_rst_ref_bullet_lists
+   code_rst_ref_numbered_lists

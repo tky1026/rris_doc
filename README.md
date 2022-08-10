@@ -10,7 +10,8 @@ make html
 
 ### Read the Docs
 
-- https://rris-doc-testing.readthedocs.io/en/latest/
+Project home: https://readthedocs.org/projects/rris-doc-testing/
+View online: https://rris-doc-testing.readthedocs.io/en/latest/
 
 
 ### Ref

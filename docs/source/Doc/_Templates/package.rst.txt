@@ -41,9 +41,8 @@
 
 ----
 
-**Table of Contents:**
-
-<table-of-contents>
+.. .. contents:: Table of Contents
+..    :local:
 
 ----
 
