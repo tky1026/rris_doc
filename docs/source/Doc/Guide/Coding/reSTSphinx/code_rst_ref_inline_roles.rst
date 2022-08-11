@@ -71,3 +71,166 @@ Text roles
 
 #. Just write the code as it is. This may make the text more difficult to read.
    Use your common sense.
+
+When to use literal code ```...``` 
+----------------------------------
+
+Things get tricky if your inline code already contains single backquotes (backticks).
+
+4. In many cases you can still use the *interpreted text role* as described in 1. to 3.
+   For example we can write ``:code:`:html:`<br>```` to get :code:`:html:`<br>``
+
+   This is possible if (a) your code doesn't start with a backtick and (b) if no backtick in
+   your code has a trailing whitespace.
+
+5. **But:** To be really free to include inline any code containing backticks you will want to use
+   `inline literals <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#inline-literals>`__. 
+   Again: Don't escape or double anything, whitespace is maintained.
+
+   *Example*
+
+   Write::
+
+      SQL-example code: ``SELECT  `tt_content` . `bodytext`  AS  `t1` . `text`;``
+
+   to get:
+
+   SQL-example code: ``SELECT  `tt_content` . `bodytext`  AS  `t1` . `text`;``
+
+   **The drawbacks** of literal inline code notation are:
+
+   -  there is no way to semantically classify the kind of code
+   -  there is no special coloring or highlighting
+   -  the raw reST code looks less beautiful and is less readable
+
+----
+
+Inline code vs code blocks
+==========================
+
+Inline code
+-----------
+
+The name for  **very small** code snippets that occur within normal text flow within sentences is *inline code*.
+
+-  is styled somewhat differently,
+-  has **no** syntax highlighting,
+-  does **not** need to be syntactically correct,
+-  can be compared to ``<span>...</span>`` tags in html,
+-  and is made up by self-defined names.
+
+   .. code-block:: rst
+
+      .. How to define custom code role
+
+      .. role:: bash(code)
+         :language: bash
+
+      .. Using defined code role
+
+      Test inline: :bash:`export FOO="bar"`.
+
+   **How it looks**
+
+   .. role:: bash(code)
+      :language: bash
+
+   Test inline: :bash:`export FOO="bar"`.
+
+- see `here <https://docutils.sourceforge.io/docs/ref/rst/roles.html#toc-entry-5>`__ for more information.
+
+Code block
+----------
+
+-  appear "as a box",
+-  can have syntax highlighting,
+-  need to be syntactically correct in order to have highlighting,
+-  can be compared to `<pre>...</pre>` blocks in html,
+-  use predefined names for the different languages that come with Pygments,
+   the syntax highlighter.
+
+   .. code-block:: rst
+
+      .. code-block:: bash
+
+         export FOO="bar"
+
+   **How it looks**
+
+   .. code-block:: bash
+
+      export FOO="bar"
+
+
+----
+
+Custom text role
+================
+
+You are free to define additional text roles for an individual pages as you like. 
+Make use of the `role directive <http://docutils.sourceforge.net/docs/ref/rst/directives.html#role>`__.
+
+For example, you want a custom role ``haskell``? Define that role as derivative of ``code``:
+
+.. code-block:: rst
+
+   .. role:: haskell(code)
+
+You may then write:
+
+.. code-block:: rst
+
+   Here is some :haskell:`haskell inline code` in the sentence.
+
+The immediate advantage will be that you can explicitly markup your source code semantically and declare snippets to be ``haskell``.
+The visual appearance will be that of ``code`` until a special css class has been defined.
+
+Look at this HTML to under stand the technical background:
+
+.. code-block:: html
+
+   <code class="code haskell docutils literal">
+      <span class="pre">haskell inline code</span>
+   </code>
+
+.. role:: html(code)
+   :language: html
+
+A default styling for :html:`class="code"` exists and is in effect until
+overridden by a special styling :html:`class="code.haskell"` that needs to
+be defined.
+
+Another example
+---------------
+
+Applying CSS to custom text roles. This example demonstrate a custom role to add colour span to some text.
+
+Within the ``.rst`` file, define the custom role, and applying the role in some text:
+
+.. code-block:: rst
+
+   .. role:: green
+
+   An example of using :green:`interpreted text`
+
+In order to have the ``interpreted text`` coloured in green, we can add a style class definition in CSS
+
+.. code-block:: css
+
+   /* in _static/css/my_theme.css */
+
+   .green {
+      color:green;
+   }
+
+**How it looks**
+
+.. role:: green
+
+An example of using :green:`interpreted text`
+
+.. note:: 
+
+   Adding CSS style to custom role would require to modify the style sheet for this documentation. 
+   Please enquire the :ref:`maintainers <team-doc-maintainers>` before doing so.
+
