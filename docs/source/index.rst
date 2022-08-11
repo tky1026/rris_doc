@@ -3,14 +3,34 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to RRIS Intelligence's documentation!
-=============================================
+=================================
+RRIS Intelligence's Documentation
+=================================
 
-Shared Control Team documentation page.
+:Version:
+   |release|
 
-Lastest Update: |today|
+:Language:
+   en
+
+:Author:
+   RRIS shared control team contributors
+
+:License:
+   Copyright 2022, Rehabilitation Research Institute of Singapore (RRIS)
+
+:Lastest Update: 
+   |today|
+
+----
+
+This documentation contains information about projects, packages, documentation contribution guide and formatting with reST and Sphinx.
+
+----
 
 .. include:: /TOC.rst
+
+----
 
 `Rehabilitation Research Institute of Singapore (RRIS)`_
 

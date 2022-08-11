@@ -32,6 +32,8 @@ intersphinx_mapping = {
     't3doc': ('https://rris-doc-testing.readthedocs.io/en/latest/', None),
 }
 
+today_fmt = '%d %b %Y, %H:%M'
+
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 

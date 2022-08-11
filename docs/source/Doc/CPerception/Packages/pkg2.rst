@@ -32,8 +32,8 @@
 :Documentation:
    <writer> <email>
 
-:Rendered:
-   |today|
+:Latest update:
+   <date>
 
 ----
 

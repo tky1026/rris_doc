@@ -34,8 +34,8 @@ Curb Detection
 :Documentation:
    Kuan Yuee kuanyuee.tan@ntu.edu.sg
 
-:Rendered:
-   |today|
+:Latest update:
+   10 Aug 2022
 
 ----
 
