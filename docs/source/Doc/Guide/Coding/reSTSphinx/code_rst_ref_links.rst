@@ -197,8 +197,8 @@ However, there are some disadvantages in using these, so we still encourage crea
 
 .. _code-rst-ref-links-cross-ref:
 
-Cross referencing (``:ref``)
-----------------------------
+Cross referencing (``:ref:``)
+-----------------------------
 
 This section describes how to link to sections of the current or other documents correctly.
 
