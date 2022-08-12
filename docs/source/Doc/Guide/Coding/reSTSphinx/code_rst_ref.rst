@@ -17,3 +17,11 @@ reST & Sphinx Reference
    code_rst_ref_include
    code_rst_ref_bullet_lists
    code_rst_ref_numbered_lists
+   code_rst_ref_definition_lists
+   code_rst_ref_image
+   code_rst_ref_video
+   code_rst_ref_admonition
+   code_rst_ref_comment
+   code_rst_ref_table
+   code_rst_ref_tab
+   code_rst_ref_sidebar

@@ -52,7 +52,7 @@ We will not go into the exact definition here. For now, all you need to know is 
 
 * the :ref:`:ref: <code-rst-ref-links-cross-ref>` directive for cross-referencing
 * the :ref:`toctree <code-rst-ref-hierarchy-structure>` directive for creating table of contents (=toc) and menus
-* the :ref:`code-block <code-rst-code-blocks-codeblock>` directive for creating code blocks with syntax highlighting. ``code-block`` is a Sphinx directive, while ``code`` is a (native) reStructuredText directive. We commonly use ``code-block``, not ``code``.
+* the :ref:`code-block <code-rst-ref-code-blocks-codeblock>` directive for creating code blocks with syntax highlighting. ``code-block`` is a Sphinx directive, while ``code`` is a (native) reStructuredText directive. We commonly use ``code-block``, not ``code``.
 
 
 Rendering
