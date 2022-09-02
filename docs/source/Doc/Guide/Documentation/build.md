@@ -18,6 +18,7 @@
     ```bash
     pip install sphinx sphinx-rtd-theme
     pip install sphinx-copybutton
+    pip install sphinx-tabs
     ```
 
     (Optional) Install Markdown support
@@ -51,3 +52,14 @@
     python3 -m http.server
     ```
     Then open in browser [http://localhost:8000](http://localhost:8000).
+
+## Errors
+
+- pip dependency errors
+
+    ```shell
+    pip install pillow
+    pip install six
+    pip install decorator
+    pip install pexpect
+    ```
