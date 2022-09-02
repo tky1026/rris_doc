@@ -1,11 +1,11 @@
-.. RRIS Intelligence documentation master file, created by
+.. RRIS Intelligent Robotics documentation master file, created by
    sphinx-quickstart on Tue Aug  2 10:10:23 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=================================
-RRIS Intelligence's Documentation
-=================================
+=========================================
+RRIS Intelligent Robotics's Documentation
+=========================================
 
 :Version:
    |release|

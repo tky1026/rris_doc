@@ -25,3 +25,4 @@ reST & Sphinx Reference
    code_rst_ref_table
    code_rst_ref_tab
    code_rst_ref_sidebar
+   code_rst_ref_layout

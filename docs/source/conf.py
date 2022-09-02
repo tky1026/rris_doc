@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'RRIS Intelligence'
+project = 'RRIS Intelligent Robotics'
 copyright = '2022, Rehabilitation Research Institute of Singapore (RRIS)'
 author = 'KY'
 release = '1.0'
