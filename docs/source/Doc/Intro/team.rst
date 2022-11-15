@@ -2,47 +2,43 @@
 Team
 ====
 
-Team Members
-============
+Staff
+=====
 
-.. _rris_staff1:
+.. _rris_staff_staff1:
 
 * Staff 1
   
   Email: staff1@ntu.edu.sg
 
-.. _rris_staff2:
+.. _rris_staff_staff2:
 
 * Staff 2
   
   Email: staff2@ntu.edu.sg
 
-.. _rris_staff3:
+.. _rris_staff_staff3:
 
 * Staff 3
   
   Email: staff3@ntu.edu.sg
 
 
-.. _rris_kuanyuee:
+.. _rris_staff_kuanyuee:
   
-**Kuan Yuee**
-
-Email: kuanyuee.tan@ntu.edu.sg
-
-.. _rris_fyp_student1:
-
+* **Tan Kuan Yuee**
+  
+  Email: kuanyuee.tan@ntu.edu.sg
 
 ----
 
 **Previous Staff**
 
-.. _rris_marcusleong:
+.. _rris_staff_marcusleong:
 
-* Marcus Leong
+* Marcus Leong Khee Ing
 
 ----
-
 
 Documentation
 =============
@@ -52,11 +48,13 @@ Documentation
 Maintainers
 -----------
 
-This documentation is currently maintained by :ref:`Kuan Yuee <rris_kuanyuee>`.
+This documentation is currently maintained by :ref:`Kuan Yuee <rris_staff_kuanyuee>`.
 
 
 .. _team-doc-contributors:
 
 Contributors
 ------------
+
+* :ref:`Kuan Yuee <rris_staff_kuanyuee>`
 
