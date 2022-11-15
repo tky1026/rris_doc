@@ -28,3 +28,10 @@ https://github.com/leggedrobotics/ros_best_practices/wiki
 https://answers.ros.org/question/11835/when-should-i-split-my-code-into-multiple-packages-and-whats-a-good-way-to-split-it/
 
 http://wiki.ros.org/DevelopersGuide
+
+
+- alias shortcut
+
+    ```shell
+    alias rerun_server="cd; cd ~/Desktop/rris_doc/docs/build/html; python3 -m http.server"
+    ```
