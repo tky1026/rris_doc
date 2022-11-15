@@ -17,47 +17,15 @@ Table of Contents
 
 .. toctree:: 
    :maxdepth: 2
-   :caption: Perception
+   :caption: Packages & Tools
 
-   Tools <Doc/CPerception/tools.rst>
-   Packages <Doc/CPerception/packages.rst>
-
-.. toctree:: 
-   :maxdepth: 2
-   :caption: Planning
-
-   Tools <Doc/CPlanning/tools.rst>
-   Packages <Doc/CPlanning/packages.rst>
-
-.. toctree:: 
-   :maxdepth: 2
-   :caption: Control
-
-   Packages <Doc/CControl/packages.rst>
-
-.. toctree:: 
-   :maxdepth: 2
-   :caption: Embedded
-
-   Doc/CEmbedded/embed1
-
-.. toctree:: 
-   :maxdepth: 2
-   :caption: User Interface
-
-   Doc/CUserInterface/ui1
-
-.. toctree:: 
-   :maxdepth: 2
-   :caption: Misc
-
-   Packages <Doc/CMisc/packages.rst>
-
-.. toctree:: 
-   :maxdepth: 2
-   :caption: Experiment
-
-   Tools <Doc/CExperiment/tools.rst>
+   Perception <Doc/Packages/CPerception/index>
+   Planning <Doc/Packages/CPlanning/index>
+   Control <Doc/Packages/CControl/index>
+   Embedded <Doc/Packages/CEmbedded/index>
+   User Interface <Doc/Packages/CUserInterface/index>
+   Misc Packages <Doc/Packages/CMisc/index>
+   Experiment <Doc/Packages/CExperiment/index>
 
 .. toctree::
    :maxdepth: 1

@@ -1,9 +1,8 @@
 Misc Packages
 =============
 
-Misc Packages page
-
 .. toctree::
+   :caption: Packages
    :titlesonly:
 
    Packages/pkg1
