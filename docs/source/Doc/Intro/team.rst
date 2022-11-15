@@ -23,11 +23,12 @@ Team Members
   
   Email: staff3@ntu.edu.sg
 
-.. _rris_kuanyuee:
 
-* Kuan Yuee
+.. _rris_kuanyuee:
   
-  Email: kuanyuee.tan@ntu.edu.sg
+**Kuan Yuee**
+
+Email: kuanyuee.tan@ntu.edu.sg
 
 .. _rris_fyp_student1:
 
