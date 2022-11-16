@@ -9,26 +9,56 @@ Staff
 
 * Staff 1
   
-  Email: staff1@ntu.edu.sg
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_staff1``
+     * - Email
+       - staff1@ntu.edu.sg
 
 .. _rris_staff_staff2:
 
 * Staff 2
   
-  Email: staff2@ntu.edu.sg
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_staff2``
+     * - Email
+       - staff2@ntu.edu.sg
 
 .. _rris_staff_staff3:
 
 * Staff 3
   
-  Email: staff3@ntu.edu.sg
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_staff3``
+     * - Email
+       - staff3@ntu.edu.sg
 
 
 .. _rris_staff_kuanyuee:
   
 * **Tan Kuan Yuee**
   
-  Email: kuanyuee.tan@ntu.edu.sg
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_kuanyuee``
+     * - Email
+       - kuanyuee.tan@ntu.edu.sg
+     * - GitHub
+       - `tky1026 <https://github.com/tky1026>`__
 
 ----
 
@@ -37,6 +67,15 @@ Staff
 .. _rris_staff_marcusleong:
 
 * Marcus Leong Khee Ing
+
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_marcusleong``
+     * - GitHub
+       - `leongkhing <https://github.com/leongkhing>`__
 
 ----
 
@@ -57,4 +96,3 @@ Contributors
 ------------
 
 * :ref:`Kuan Yuee <rris_staff_kuanyuee>`
-
