@@ -32,7 +32,7 @@ Table of Contents
    :caption: Guide
 
    Documentation Guide <Doc/Guide/guide_doc>
-   Coding Guidelines <Doc/Guide/guide_code>
+   Coding Guide <Doc/Guide/guide_code>
    How-Tos <Doc/Guide/howto.rst>
    Cheat Sheet <Doc/Guide/cheat_sheet>
    Learning Resources <Doc/Guide/learning>

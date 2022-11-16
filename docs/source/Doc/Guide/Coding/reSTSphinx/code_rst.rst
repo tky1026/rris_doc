@@ -1,3 +1,5 @@
+.. _code-rst:
+
 =========================
 reStructuredText & Sphinx
 =========================
@@ -19,9 +21,9 @@ We won’t be covering every reST markup that is available. For more information
 
    code_rst_intro
    code_rst_syntax
+   code_rst_ref
    code_rst_pitfall
    code_rst_cheatsheet
-   code_rst_ref
 
 
 

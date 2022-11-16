@@ -1,6 +1,6 @@
-===================
-Documentation Style
-===================
+===========================
+Documentation Writing Style
+===========================
 
 By using this style guide we ensure that all written texts have the same general grammar and writing style — even when many people contribute.
 
@@ -181,7 +181,7 @@ Use :ref:`sentence case <doc-sgl-sentence-case>` for section headers:
 
 The rationale of enforcing this rule is to ensure clear differentiation between a title of a document and the sections within the document.
 
-In reST, headers are created by underlining / overlining with (``====``, ``----``, etc.) as described in ``Headlines and sections``:
+In reST, headers are created by underlining / overlining with (``====``, ``----``, etc.) as described in :ref:`code-rst-ref-headline-section`:
 
 .. code-block:: rst
 

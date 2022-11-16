@@ -1,8 +1,8 @@
 .. _doc-cgl-rest:
 
-================================
-Coding Guidelines for reST Files
-================================
+===============================
+Documentation Coding Guidelines
+===============================
 
 Basic formatting rules
 ======================

@@ -26,14 +26,38 @@ To build this documentation locally, please follow the instruction below:
 Documentation content style guide
 =================================
 
-This contains conventions, coding guidelines and best practices for contributing to this documentation.
+This section contains conventions, coding guidelines and best practices for contributing to this documentation.
 In general, the documentation follows the conventions as described in the following sections.
 
 We mainly uses :term:`reStructuredText(reST) <reST>` markup language for writing docuementation, the file ending of reST files is ``.rst``.
 However, :term:`Markdown` format with file ending ``.md`` is acceptable as well.
 
-The most important conventions for writing reST files are summarized on this page, the rest can be found in the subchapters.
+For syntax and reference of reStructuredText, refer to next section: `reStructuredText & Sphinx`_.
 
+**Table of contents**
+
+.. toctree:: 
+   :maxdepth: 1
+
+   Documentation/doc_writing
+   Documentation/doc_guide_rst
+   Documentation/doc_structure
+   Documentation/doc_format
+   Documentation/doc_commit
+
+The most important conventions for writing reST files for this documentation are summarized:
+
+#. **Title underlining**
+
+   For consistency throughout the documentation, we defined the :ref:`heading underlining <code-rst-ref-headline-section>` for each section. 
+   
+   Every ``.rst`` file should have a “document title” (doctitle), always use underlining plus overlining with ``===`` for doctitle.
+
+   .. code-block:: rst
+
+      =========
+      Doc Title
+      =========
 
 #. **Title capitalization**
 
@@ -47,7 +71,7 @@ The most important conventions for writing reST files are summarized on this pag
 
    Use common spelling for British English. Some specific terms have a special spelling. See :ref:`spelling-ref`.
 
-#. **Coding guide for headers**
+#. **Headers underlining**
 
    Headline underline should follow :ref:`doc-cgl-headline-underline`.
 
@@ -70,28 +94,18 @@ The most important conventions for writing reST files are summarized on this pag
 
       * :ref:`doc-cgl-rest`
 
-#. **Refer to elements in the GUI with** ``:guilabel:``
+#. **Whitespace and indentation**
+   
+   Always use **three spaces** for one level of indentation, and do not insert *Tab* character for indentation.
 
-   When describing GUI elements, follow :ref:`doc-cgl-refer-gui`.
+----
 
-   Example:
+reStructuredText & Sphinx
+=========================
 
-   .. code:: rest
-      
-      :guilabel:`ADMIN TOOLS > Extensions`
+Syntax and reference for reStructuredText (also referred to as reST) and Sphinx.
 
-   This will look like this: :guilabel:`ADMIN TOOLS > Extensions`
-
-**Table of contents**
-
-.. toctree:: 
-   :maxdepth: 1
-
-   Documentation/doc_writing
-   Documentation/doc_structure
-   Documentation/doc_format
-   Documentation/doc_guide_rst
-   Documentation/doc_commit
+* :ref:`code-rst`
 
 ----
 
@@ -102,16 +116,6 @@ Writing new documentation
    :maxdepth: 1
 
    Documentation/doc_boilerplate
-
-----
-
-reStructuredText & Sphinx
-=========================
-
-.. toctree:: 
-   :maxdepth: 1
-
-   TODO <../Test/file3>
 
 ----
 
