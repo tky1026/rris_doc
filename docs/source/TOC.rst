@@ -43,6 +43,9 @@ Table of Contents
    :caption: Resources
 
    Dataset Repository <Doc/Resources/rsrs_dataset>
+   Publications <Doc/Resources/rsrs_publication>
+   Students <Doc/Resources/rsrs_student>
+   Templates <Doc/Resources/rsrs_template>
 
 .. toctree::
    :caption: Test

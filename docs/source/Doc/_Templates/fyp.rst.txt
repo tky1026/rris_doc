@@ -1,0 +1,44 @@
+==========================
+<student-abbr> - <project>
+==========================
+
+:Project title:
+   <project>
+
+:Academic year:
+   <academic-year>
+
+:Student:
+   <student>
+
+:Supervisor:
+   <supervisor>
+
+:Researchers:
+   <researcher-ref>
+
+:School:
+   <school>
+
+:DR-NTU:
+   <drntu-link>
+
+:Final report:
+   <report-link>
+
+:GitHub:
+   <github-link>
+
+:Documentation:
+   <writer-ref>
+
+:Latest update:
+   <date>
+
+----
+
+<abstract>
+
+----
+
+<details>

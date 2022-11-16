@@ -15,9 +15,10 @@ You don’t need to read the entire chapter, just lookup the section that is rel
 
 We won’t be covering every reST markup that is available. For more information, see other resources, such as: `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_.
 
+**Table of contents**
+
 .. toctree:: 
    :maxdepth: 1
-   :hidden:
 
    code_rst_intro
    code_rst_syntax

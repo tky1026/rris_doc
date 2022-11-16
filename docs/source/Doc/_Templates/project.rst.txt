@@ -6,12 +6,18 @@
    <package-name>
 
 :Members:
-   <maintainer> <email>
+   <maintainer-ref>
 
-   <maintainer> <email>
+   <maintainer-ref>
 
 :GitHub:
-    <github-link>
+   <github-link>
+
+:Documentation:
+   <writer-ref>
+
+:Latest update:
+   <date>
 
 ----
 
@@ -24,4 +30,4 @@
 
 ----
 
-<package details>
+<project details>

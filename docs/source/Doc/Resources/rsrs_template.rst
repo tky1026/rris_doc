@@ -1,6 +1,6 @@
-=======================================
-Templates for Writing New Documentation
-=======================================
+=========
+Templates
+=========
 
 Package documentation template
 ==============================
@@ -13,4 +13,11 @@ Project documentation template
 ==============================
 
 .. include:: /Doc/_Templates/project.rst.txt
+   :code: rst
+
+
+FYP documentation template
+==========================
+
+.. include:: /Doc/_Templates/fyp.rst.txt
    :code: rst
