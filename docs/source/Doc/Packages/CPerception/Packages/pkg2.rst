@@ -15,10 +15,10 @@
    <ros-version> <ros-distribution>
 
 :Author:
-   <author> <email>
+   <author-ref>
 
 :Maintainer:
-   <maintainer> <email>
+   <maintainer-ref>
 
 :License:
    Proprietary, Rehabilitation Research Institute of Singapore (RRIS)
@@ -30,7 +30,7 @@
    <related-topics>
 
 :Documentation:
-   <writer> <email>
+   <writer-ref>
 
 :Latest update:
    <date>

@@ -1,9 +1,9 @@
-========================================
-LWS - Seamless Indoor Outdoor Navigation
-========================================
+==================================
+Seamless Indoor Outdoor Navigation
+==================================
 
 :Project title:
-   Seamless Indoor Outdoor Navigation
+   Seamless indoor outdoor navigation
 
 :Academic year:
    2021/22
@@ -15,7 +15,7 @@ LWS - Seamless Indoor Outdoor Navigation
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   Wee Ching, :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   :ref:`Wee Ching <rris_staff_weeching>`, :ref:`Kuan Yuee <rris_staff_kuanyuee>`
 
 :School:
    NTU MAE

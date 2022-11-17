@@ -3,3 +3,11 @@
 ======
 Images
 ======
+
+normal image
+
+inline image
+
+hyperlink image
+
+figure

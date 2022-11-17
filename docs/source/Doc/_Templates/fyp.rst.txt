@@ -1,6 +1,6 @@
-==========================
-<student-abbr> - <project>
-==========================
+=========
+<project>
+=========
 
 :Project title:
    <project>

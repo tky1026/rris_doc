@@ -31,18 +31,18 @@ Staff
      * - Email
        - staff2@ntu.edu.sg
 
-.. _rris_staff_staff3:
+.. _rris_staff_lilei:
 
-* Staff 3
+* **Li Lei (Dr)**
   
   .. list-table::
      :widths: 10 30
      :stub-columns: 1
 
      * - ref
-       - ``rris_staff_staff3``
+       - ``rris_staff_lilei``
      * - Email
-       - staff3@ntu.edu.sg
+       - li_lei@ntu.edu.sg
 
 
 .. _rris_staff_kuanyuee:
@@ -76,6 +76,45 @@ Staff
        - ``rris_staff_marcusleong``
      * - GitHub
        - `leongkhing <https://github.com/leongkhing>`__
+
+.. _rris_staff_chinxian:
+
+* Ang Chin Xian
+
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_chinxian``
+     * - GitHub
+       - `angcx1997 <https://github.com/angcx1997>`__
+
+.. _rris_staff_weeching:
+
+* Pang Wee Ching (Dr)
+
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_weeching``
+     * - GitHub
+       - `pweeching <https://github.com/pweeching>`__
+
+.. _rris_staff_bangyi:
+
+* Tan Bang Yi
+
+  .. list-table::
+     :widths: 10 30
+     :stub-columns: 1
+
+     * - ref
+       - ``rris_staff_bangyi``
+     * - GitHub
+       - `bangyii <https://github.com/bangyii>`__
 
 ----
 

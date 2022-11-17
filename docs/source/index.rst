@@ -35,3 +35,16 @@ This documentation contains information about projects, packages, documentation 
 `Rehabilitation Research Institute of Singapore (RRIS)`_
 
 .. _Rehabilitation Research Institute of Singapore (RRIS): https://www.ntu.edu.sg/rris
+
+.. image:: /Asset/bxl-linkedin.png
+   :target: https://sg.linkedin.com/company/rris
+   :height: 36
+   :name:
+
+.. image:: /Asset/bxl-facebook.png
+   :target: https://www.facebook.com/people/Rehabilitation-Research-Institute-of-Singapore-RRIS-NTU/100086449094186/
+   :height: 36
+
+.. image:: /Asset/bxl-github.png
+   :target: https://github.com/ntu-rris
+   :height: 36
