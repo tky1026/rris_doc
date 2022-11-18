@@ -23,7 +23,7 @@ General rules for using ``.. toctree::``
       Some Title
       ==========
 
-#. Do not use any additional :ref:`headlines <code-rst-ref-headline-section>` in the file if it contains a ``.. toctree::`` directive.
+#. Every ``.rst`` file must be included in ``.. toctree::``.
 
 #. Within ``.. toctree::``, include files by specifying relative path to the files. File extensions ``.rst`` or ``.md`` are optional.
 
@@ -44,6 +44,8 @@ General rules for using ``.. toctree::``
 
          Some Other Title <path/to/file1>
          path/to/file2
+
+.. #. Do not use any additional :ref:`headlines <code-rst-ref-headline-section>` in the file if it contains a ``.. toctree::`` directive.
 
 Examples
 ========

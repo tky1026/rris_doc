@@ -24,6 +24,7 @@ Table of Contents
    Control <Doc/Package/CControl/index>
    Embedded <Doc/Package/CEmbedded/index>
    User Interface <Doc/Package/CUserInterface/index>
+   Cloud <Doc/Package/CCloud/index>
    Misc Packages <Doc/Package/CMisc/index>
    Experiment <Doc/Package/CExperiment/index>
 
