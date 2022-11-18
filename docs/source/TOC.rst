@@ -19,13 +19,13 @@ Table of Contents
    :maxdepth: 2
    :caption: Packages & Tools
 
-   Perception <Doc/Packages/CPerception/index>
-   Planning <Doc/Packages/CPlanning/index>
-   Control <Doc/Packages/CControl/index>
-   Embedded <Doc/Packages/CEmbedded/index>
-   User Interface <Doc/Packages/CUserInterface/index>
-   Misc Packages <Doc/Packages/CMisc/index>
-   Experiment <Doc/Packages/CExperiment/index>
+   Perception <Doc/Package/CPerception/index>
+   Planning <Doc/Package/CPlanning/index>
+   Control <Doc/Package/CControl/index>
+   Embedded <Doc/Package/CEmbedded/index>
+   User Interface <Doc/Package/CUserInterface/index>
+   Misc Packages <Doc/Package/CMisc/index>
+   Experiment <Doc/Package/CExperiment/index>
 
 .. toctree::
    :maxdepth: 1
@@ -35,7 +35,6 @@ Table of Contents
    Coding Guide <Doc/Guide/guide_code>
    How-Tos <Doc/Guide/howto.rst>
    Cheat Sheet <Doc/Guide/cheat_sheet>
-   Learning Resources <Doc/Guide/learning>
    Glossary <Doc/Guide/glossary>
 
 .. toctree:: 
@@ -45,7 +44,15 @@ Table of Contents
    Dataset Repository <Doc/Resources/rsrs_dataset>
    Publications <Doc/Resources/rsrs_publication>
    Students <Doc/Resources/rsrs_student>
+   Learning <Doc/Resources/rsrs_learning>
    Templates <Doc/Resources/rsrs_template>
+
+.. toctree:: 
+   :titlesonly:
+   :caption: RRIS Knowledgebase
+
+   National One-Rehab Framework <Doc/Other/natl_one_rehab_frwk>
+
 
 .. toctree::
    :caption: Test

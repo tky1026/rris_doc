@@ -6,9 +6,9 @@ Project 1
    WP1 Project 1
 
 :Members:
-   Staff One staff.one@email.com
+   :ref:`Staff One <rris_staff_staff1>`
 
-   Member Two member.two@email.com
+   :ref:`Member Two <rris_staff_staff2>`
 
 :GitHub:
     <github-link>
