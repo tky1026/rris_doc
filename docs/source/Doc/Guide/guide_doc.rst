@@ -3,14 +3,14 @@ Documentation Guide
 ===================
 
 This manual covers writing documentation. This includes, contributing to this documentation, documentation 
-coding guidelines, conventions, and provide links to `GitHub issues`_.
+writing guidelines, conventions, and provide links to `GitHub issues`_.
 
 .. _`GitHub issues`: https://github.com/tky1026/rris_doc/issues
 
 ----
 
-Build this documentation
-========================
+Building documentation
+======================
 
 This documentation is rendered using Sphinx, and hosted on `Read the Docs <https://rris-doc-testing.readthedocs.io/en/latest/>`_.
 
@@ -23,8 +23,8 @@ To build this documentation locally, please follow the instruction below:
 
 ----
 
-Documentation content style guide
-=================================
+Documentation content style
+===========================
 
 This section contains conventions, coding guidelines and best practices for contributing to this documentation.
 In general, the documentation follows the conventions as described in the following sections.
@@ -133,3 +133,5 @@ Contribution Guide
 ==================
 
 Read the :ref:`contribution guide <howto-contribute-doc>` on how to contribute to this documentation.
+
+TODO: report issues
