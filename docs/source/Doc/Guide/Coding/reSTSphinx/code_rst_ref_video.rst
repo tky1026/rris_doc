@@ -4,29 +4,16 @@
 Videos
 ======
 
-Hello 1
+Raw html
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://youtu.be/4HYztlv5enY" frameborder="0" allowfullscreen></iframe>
+   <video height="400" controls src="/_static/goal1.mp4"></video> 
 
 ----
 
-Hello 2
+Youtube
 
 .. raw:: html
-   
-   <iframe width="560" height="315" src="/_static/elevator_demo1.mp4" frameborder="0" allowfullscreen></iframe>
 
-----
-
-Hello 3
-
-.. youtube:: https://youtu.be/4HYztlv5enY
-
-
-----
-
-Hello 4
-
-.. embed:: https://youtu.be/4HYztlv5enY
+   <iframe height="400" controls src="https://youtu.be/4HYztlv5enY"></iframe> 
