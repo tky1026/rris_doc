@@ -1,6 +1,6 @@
-=========
-FYP Guide
-=========
+============
+FYP Handover
+============
 
 * TODO - How to handover work
 
@@ -14,8 +14,8 @@ FYP Guide
 
 For new FYP documentation, please start from the templates below:
 
-.. include:: /Doc/_Templates/fyp.rst.txt
-   :code: rst
+.. literalinclude:: /Doc/_Templates/fyp.rst.txt
+   :language: rst
 
 * Name the documentation ``.rst`` file with format ``fyp_firstname.rst``. The file should store within folder ``FYP``.
 

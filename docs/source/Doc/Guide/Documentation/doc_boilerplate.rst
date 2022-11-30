@@ -5,12 +5,11 @@ Templates for Writing New Documentation
 Package documentation template
 ==============================
 
-.. include:: /Doc/_Templates/package.rst.txt
-   :code: rst
-
+.. literalinclude:: /Doc/_Templates/package.rst.txt
+   :language: rst
 
 Project documentation template
 ==============================
 
-.. include:: /Doc/_Templates/project.rst.txt
-   :code: rst
+.. literalinclude:: /Doc/_Templates/project.rst.txt
+   :language: rst

@@ -1,26 +1,11 @@
+.. include:: /includes.rst.txt
 .. _code-rst-ref-code-blocks:
-
-.. role:: rst(code)
 
 ====================================
 Code Blocks With Syntax Highlighting
 ====================================
 
 A code block consists of a :rst:`.. code-block::` directive and the actual code indented by three spaces, the standard indentation for reStructured Text.
-
-.. tabularcolumns:: arg1
-
-.. code-block:: c++
-   :caption: Example Hello World
-
-   /**
-   * Example code to print hello world
-   **/
-   int main()
-   {
-     std::cout << "Hello World" << std::endl;
-     return 0; 
-   }
       
 .. tabs:: 
 
@@ -61,7 +46,9 @@ A code block consists of a :rst:`.. code-block::` directive and the actual code 
          }
 
 * Always use :ref:`syntactically correct code <code-rst-ref-code-syntax-err>` in a code block.
-* Use `Placeholders`_ in angle brackets (:rst:`<placeholder-name>``) to refer to a place in the code where the exact value is not important or to be replaced.
+* Use `Placeholders`_ in angle brackets (:rst:`<placeholder-name>`) to refer to a place in the code where the exact value is not important or to be replaced.
+
+----
 
 .. _code-rst-ref-code-blocks-codeblock:
 
@@ -169,10 +156,10 @@ A code block has the following sytax:
             }
 
 Examples
-========
+--------
 
 Code block with line numbers and highlighting of one line
----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. tabs:: 
 
@@ -213,7 +200,7 @@ Code block with line numbers and highlighting of one line
                  return (x * factorial(x-1))
 
 Use code blocks containing diffs
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 To emphasize changes that should be made:
@@ -250,7 +237,7 @@ To emphasize changes that should be made:
 
 
 Show a directory tree
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 .. tabs:: 
 
@@ -280,6 +267,90 @@ Show a directory tree
          ├── ...
          └── installed.json
 
+----
+
+.. _code-rst-ref-code-blocks-literalinclude:
+
+Literalinclude
+==============
+
+A drawback of code blocks is that most editors cannot properly highlight or
+indent code within code blocks. The directive :rst:`.. literalinclude::` enables you
+to store longer code blocks in an external file with the proper file extension.
+
+The :rst:`.. literalinclude::` directive imports the file and displays its content as
+code block.
+
+
+.. tabs::
+
+   .. group-tab:: Source (rst)
+
+      .. code-block:: rst
+         :caption: Documentation/SiteConfiguration/Index.rst
+
+         .. literalinclude:: /Doc/_Templates/project.rst.txt
+            :language: rst
+            :emphasize-lines: 5,8-11
+            :linenos:
+
+   .. group-tab:: Output
+
+      .. literalinclude:: /Doc/_Templates/project.rst.txt
+         :language: rst
+         :emphasize-lines: 5,8-11
+         :linenos:
+
+Literal includes can even be used to render the difference between files,
+without having to create a diff file first:
+
+.. tabs::
+
+   .. group-tab:: Source (rst)
+
+      .. code-block:: rst
+         :caption: Documentation/SiteConfiguration/Index.rst
+
+         .. literalinclude:: /Doc/_Templates/package.rst.txt
+            :diff: /Doc/_Templates/project.rst.txt
+
+   .. group-tab:: Output
+
+      .. literalinclude:: /Doc/_Templates/package.rst.txt
+         :diff: /Doc/_Templates/project.rst.txt
+
+
+See also `literalinclude directive
+<http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-literalinclude>`__.
+
+----
+
+Placeholders
+============
+
+Placeholders in this context are named tags in code and
+example URLs where the exact value does not matter,
+but is referenced in the surrounding documentation.
+Use the *Backus-Naur form* ``<placeholder-name>`` for placeholders in code and
+URLs, i.e. use angle brackets to encapsulate the placeholder name.
+
+For example in C++
+
+.. code-block:: rst
+
+   Set up a controller class to handle user interaction with the entity data
+   model:
+
+   .. code-block:: c++
+
+      class <Entity>Controller : public ActionController
+      {
+         ...
+      };
+
+   where `<Entity>` corresponds to the entity data model class name.
+
+----
 
 .. _code-rst-ref-code-blocks-lexers:
 
@@ -716,81 +787,3 @@ zephir \|
 `Sphinx <http://www.sphinx-doc.org/en/stable/>`__ uses `Pygments
 <http://pygments.org/>`__ for highlighting. On a machine that has Pygments
 installed the command `pygmentize -L` will list all available lexers.
-
-Literalinclude
-==============
-
-A drawback of code blocks is that most editors cannot properly highlight or
-indent code within code blocks. The directive :rst:`.. literalinclude::` enables you
-to store longer code blocks in an external file with the proper file extension.
-
-The :rst:`.. literalinclude::` directive imports the file and displays its content as
-code block.
-
-
-.. tabs::
-
-   .. group-tab:: Source (rst)
-
-      .. code-block:: rst
-         :caption: Documentation/SiteConfiguration/Index.rst
-
-         .. literalinclude:: /Doc/_Templates/project.rst.txt
-            :language: rst
-            :emphasize-lines: 5,8-11
-            :linenos:
-
-   .. group-tab:: Output
-
-      .. literalinclude:: /Doc/_Templates/project.rst.txt
-         :language: rst
-         :emphasize-lines: 5,8-11
-         :linenos:
-
-Literal includes can even be used to render the difference between files,
-without having to create a diff file first:
-
-.. tabs::
-
-   .. group-tab:: Source (rst)
-
-      .. code-block:: rst
-         :caption: Documentation/SiteConfiguration/Index.rst
-
-         .. literalinclude:: /Doc/_Templates/package.rst.txt
-            :diff: /Doc/_Templates/project.rst.txt
-
-   .. group-tab:: Output
-
-      .. literalinclude:: /Doc/_Templates/package.rst.txt
-         :diff: /Doc/_Templates/project.rst.txt
-
-
-See also `literalinclude directive
-<http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-literalinclude>`__.
-
-
-Placeholders
-============
-
-Placeholders in this context are named tags in code and
-example URLs where the exact value does not matter,
-but is referenced in the surrounding documentation.
-Use the *Backus-Naur form* ``<placeholder-name>`` for placeholders in code and
-URLs, i.e. use angle brackets to encapsulate the placeholder name.
-
-For example in C++
-
-.. code-block:: rst
-
-   Set up a controller class to handle user interaction with the entity data
-   model:
-
-   .. code-block:: c++
-
-      class <Entity>Controller : public ActionController
-      {
-         ...
-      };
-
-   where `<Entity>` corresponds to the entity data model class name.

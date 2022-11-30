@@ -1,3 +1,4 @@
+.. include:: /includes.rst.txt
 .. _code-rst-ref-include:
 
 ===============
@@ -10,7 +11,7 @@ At parsing level these files are processed independently.
 For each file intermediate results are stored and each file will be processed during build.
 
 Some documentation projects have the same snippet of text appear in several places. 
-In this case it may make sense to include text snippets. The ``.. include::`` directive does this. 
+In this case it may make sense to include text snippets. The :rst:`.. include::` directive does this. 
 What you need to know about including files:
 
 Syntax
@@ -19,7 +20,6 @@ Syntax
 .. code-block:: rst
 
    .. include:: <path-to-file>
-      :code: <language>
 
 .. note:: 
 
@@ -29,7 +29,6 @@ Syntax
    .. code-block:: rst
 
       .. include:: /Doc/_Templates/package.rst.txt
-         :code: rst
 
 Advantages
 ==========
@@ -59,3 +58,37 @@ Recommendations
 .. warning:: 
 
    You cannot include files from outside the ``Doc/`` folder.
+
+----
+
+Include Markdown files into an rST file
+=======================================
+
+The :rst:`.. include::` directive acts as *copy & paste* that directly insert raw text. 
+Since Markdown has a different syntax to reStructuredText, including ``.md`` into ``.rst`` will cause rendering or formatting issues. 
+
+Hence, use the :rst:`parser` option with ``myst_parser`` as shown:
+
+.. code-block:: rst
+
+   .. include:: /path/to/file.md
+      :parser: myst_parser.docutils_
+
+----
+
+Literalinclude
+==============
+
+Sometimes one may want to include the file and display it as a block of code like :rst:`code-block`, use :ref:`literalinclude <code-rst-ref-code-blocks-literalinclude>` instead.
+
+.. code-block:: rst
+
+   .. literalinclude:: /Doc/_Templates/project.rst.txt
+      :language: rst
+
+----
+
+Reference
+=========
+
+* `Markedly Structured Text <https://myst-parser.readthedocs.io/en/latest/>`__

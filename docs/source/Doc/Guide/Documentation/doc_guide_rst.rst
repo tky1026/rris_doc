@@ -1,8 +1,8 @@
 .. _doc-cgl-rest:
 
-===============================
-Documentation Coding Guidelines
-===============================
+=============================
+Documentation Code Formatting
+=============================
 
 Basic formatting rules
 ======================
@@ -73,25 +73,25 @@ This underlining is used **per (.rst)** file. It does not matter where in the to
    1. Title
    ========
 
-   2. Header Level 1
+   1. Header Level 1
    =================
 
-   3. Header Level 2
+   1. Header Level 2
    -----------------
 
-   4. Header Level 3
+   1. Header Level 3
    ~~~~~~~~~~~~~~~~~
 
-   5. Header Level 4
+   1. Header Level 4
    """""""""""""""""
 
-   6. Header Level 5
+   1. Header Level 5
    '''''''''''''''''
 
-   7. Header Level 6
+   1. Header Level 6
    ^^^^^^^^^^^^^^^^^
 
-   8. Header Level 7
+   1. Header Level 7
    #################
 
    etc.

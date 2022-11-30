@@ -1,5 +1,9 @@
 # Build Documentation
 
+The following sections describes how to build this documentation locally and view offline.
+
+## Build instruction
+
 1. Create and activate conda environment
 
     ```bash
@@ -14,11 +18,12 @@
 2. Install required packages
 
 
-    Install Sphinx and Read the Docs theme for Sphinx
+    Install Sphinx, Read-the-Docs theme and extensions
     ```bash
     pip install sphinx sphinx-rtd-theme
     pip install sphinx-copybutton
     pip install sphinx-tabs
+    pip install sphinxcontrib-youtube
     ```
 
     (Optional) Install Markdown support

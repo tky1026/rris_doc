@@ -1,0 +1,6 @@
+.. ----------
+.. text roles
+.. ----------
+
+.. role:: rst(code)
+.. role:: dir

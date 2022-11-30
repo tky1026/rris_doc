@@ -5,19 +5,14 @@ Templates
 Package documentation template
 ==============================
 
-.. include:: /Doc/_Templates/package.rst.txt
-   :code: rst
-
+.. literalinclude:: /Doc/_Templates/package.rst.txt
 
 Project documentation template
 ==============================
 
-.. include:: /Doc/_Templates/project.rst.txt
-   :code: rst
-
+.. literalinclude:: /Doc/_Templates/project.rst.txt
 
 FYP documentation template
 ==========================
 
-.. include:: /Doc/_Templates/fyp.rst.txt
-   :code: rst
+.. literalinclude:: /Doc/_Templates/fyp.rst.txt

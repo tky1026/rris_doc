@@ -16,7 +16,7 @@ language = 'en'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_copybutton', 'sphinx.ext.intersphinx', 'sphinx_tabs.tabs']
+extensions = ['myst_parser', 'sphinx_copybutton', 'sphinx.ext.intersphinx', 'sphinx_tabs.tabs', 'sphinxcontrib.youtube']
 
 templates_path = ['_templates']
 exclude_patterns = []

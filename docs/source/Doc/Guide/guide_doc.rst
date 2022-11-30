@@ -1,3 +1,5 @@
+.. _guide-documentation:
+
 ===================
 Documentation Guide
 ===================
@@ -43,7 +45,6 @@ For syntax and reference of reStructuredText, refer to next section: `reStructur
    Documentation/doc_guide_rst
    Documentation/doc_structure
    Documentation/doc_format
-   Documentation/doc_commit
 
 The most important conventions for writing reST files for this documentation are summarized:
 
@@ -103,7 +104,7 @@ The most important conventions for writing reST files for this documentation are
 reStructuredText & Sphinx
 =========================
 
-Syntax and reference for reStructuredText (also referred to as reST) and Sphinx.
+Read syntax and reference for reStructuredText (also referred to as reST) and Sphinx under :ref:`Coding Guide <guide-code>`.
 
 * :ref:`code-rst`
 
@@ -132,6 +133,9 @@ Hosting this documentation
 Contribution Guide
 ==================
 
-Read the :ref:`contribution guide <howto-contribute-doc>` on how to contribute to this documentation.
+Read the following contribution guide on how to contribute to this documentation.
 
-TODO: report issues
+.. toctree:: 
+   :maxdepth: 1
+
+   Documentation/doc_contrib

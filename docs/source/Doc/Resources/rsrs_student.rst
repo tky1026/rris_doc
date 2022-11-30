@@ -5,12 +5,14 @@ Students
 FYP
 ===
 
-For researchers managing FYP, please follow this guide:
+For researchers managing FYP, please follow the guides below:
 
 .. toctree::
    :titlesonly:
 
-   FYP/guide
+   Project Management <FYP/guide_manage>
+   Onboarding <FYP/guide_onboard>
+   Handing Over <FYP/guide_handover>
 
 2021/22
 -------
