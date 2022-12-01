@@ -24,6 +24,7 @@ The following sections describes how to build this documentation locally and vie
     pip install sphinx-copybutton
     pip install sphinx-tabs
     pip install sphinxcontrib-youtube
+    pip install sphinx-design
     ```
 
     (Optional) Install Markdown support

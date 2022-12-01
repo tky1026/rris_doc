@@ -5,3 +5,4 @@ myst-parser==0.16.1
 docutils==0.17
 sphinx-tabs
 sphinxcontrib-youtube
+sphinx-design

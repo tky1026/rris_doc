@@ -1,0 +1,145 @@
+Formatting text
+===============
+
+Paragraphs are simply chunks of text separated by one or
+more blank lines.
+
+
+It's simple to use inline markup to have *italic text*,
+**bold text**, and ``inline source codes``.
+
+
+----
+
+Lists
+=====
+
+**Bullet list:**
+
+* Point A
+* Point B
+
+- Point C
+- Point D
+
+
+
+
+**Numbered list**:
+
+1. Point 1
+2. Point 2
+#. Point 3
+#. Point 4
+
+
+
+
+**Definition list**:
+
+term1
+    Definition of term1
+term2
+    Definition of term2
+
+
+
+
+
+
+----
+
+Table
+=====
+
+reST supports multiple ways to make a table.
+
+Simple table
+------------
+
+========  ========
+Header 1  Header 2
+========  ========
+1         one
+2         two
+========  ========
+
+
+Grid table
+----------
+
++----------+----------+
+| Header 1 | Header 2 |
++==========+==========+
+| 1        | one      |
++----------+----------+
+| 2        | two      |
++----------+----------+
+
+----
+
+Links
+=====
+
+External links
+--------------
+
+`RRIS <https://www.ntu.edu.sg/rris>`__
+
+
+Internal links
+--------------
+
+Link to same doc section title `Lists`_
+
+Link to a target with :ref:`code-rst-ref-table`
+
+
+----
+
+Codeblocks
+==========
+
+.. code-block:: c++
+   :caption: C++ example
+
+   void MyFunction()
+   {
+      std::cout << "Hello!" << std::endl;
+   }
+
+
+----
+
+Images
+======
+
+Use the ``image`` or ``figure`` directive to include images:
+
+.. image:: /Asset/rris-home.jpeg
+   :alt: RRIS front door
+   :align: center
+   :width: 200px
+
+
+
+
+
+
+
+
+
+----
+
+Math
+====
+
+reST also supports LaTeX-style math.
+
+This is an inline math :math:`x^2+y^2=z^2`.
+
+For long equations, use the ``math`` directive:
+
+.. math::
+
+   \gamma = \sqrt{(\alpha^2 + \beta^2)}

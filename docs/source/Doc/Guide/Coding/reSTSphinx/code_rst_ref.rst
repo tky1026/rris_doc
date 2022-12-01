@@ -14,8 +14,11 @@ reST & Sphinx Reference
    code_rst_ref_comment
    code_rst_ref_admonition
    code_rst_ref_links
+   code_rst_ref_math
    code_rst_ref_table
    code_rst_ref_tab
+   
+.. TODO: sphinx-design element (grids, cards, dropdown, etc)
 
 .. toctree:: 
    :caption: Page structure
@@ -42,3 +45,9 @@ reST & Sphinx Reference
 
    code_rst_ref_image
    code_rst_ref_video
+
+.. toctree:: 
+   :caption: Reference
+   :titlesonly:
+
+   code_rst_ref_extref
