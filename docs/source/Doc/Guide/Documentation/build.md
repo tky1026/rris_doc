@@ -4,10 +4,10 @@ The following sections describes how to build this documentation locally and vie
 
 ## Build instruction
 
-1. Create and activate conda environment
+1. **Create and activate conda environment**
 
     ```bash
-    conda create -n rris_doc python=3.6
+    conda create -n rris_doc python=3.9
     ```
 
     Activate conda environment
@@ -15,25 +15,28 @@ The following sections describes how to build this documentation locally and vie
     conda activate rris_doc
     ```
 
-2. Install required packages
+2. **Install required packages**
 
 
     Install Sphinx, Read-the-Docs theme and extensions
     ```bash
-    pip install sphinx sphinx-rtd-theme
+    pip install sphinx==4.5.0 
+    pip install sphinx-rtd-theme==1.0.0
+    pip install sphinx-tabs==3.3.1
     pip install sphinx-copybutton
-    pip install sphinx-tabs
-    pip install sphinxcontrib-youtube
     pip install sphinx-design
+    pip install sphinxcontrib-youtube
+    pip install Sphinx-Substitution-Extensions
     ```
 
-    (Optional) Install Markdown support
+    Install Markdown support
     ```bash
     pip install --upgrade myst-parser
-    pip install docutils==0.17
     ```
 
-3. Build docs
+    *Note: Building the documentation requires Python>=3.7, sphinx==4.5.0 and sphinx-rtd-theme==1.0.0. For proper rendering, install version specific packages if specified.*
+
+3. **Build docs**
 
     For new documentation
     ```bash

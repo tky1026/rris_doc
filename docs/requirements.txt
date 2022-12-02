@@ -1,8 +1,9 @@
 sphinx==4.5.0
 sphinx-rtd-theme==1.0.0
-sphinx-copybutton==0.5.0
-myst-parser==0.16.1
-docutils==0.17
-sphinx-tabs
-sphinxcontrib-youtube
+sphinx-tabs==3.3.1
+sphinx-copybutton
 sphinx-design
+sphinxcontrib-youtube
+Sphinx-Substitution-Extensions
+myst-parser
+docutils==0.17.1

@@ -21,7 +21,8 @@ extensions = ['myst_parser',
               'sphinx.ext.intersphinx', 
               'sphinx_tabs.tabs', 
               'sphinxcontrib.youtube',
-              'sphinx_design']
+              'sphinx_design',
+              'sphinx_substitution_extensions']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -38,6 +39,10 @@ intersphinx_mapping = {
 }
 
 today_fmt = '%d %b %Y, %H:%M'
+
+rst_prolog = """
+.. |rris_license| replace:: Copyright 2022, Rehabilitation Research Institute of Singapore (RRIS)
+"""
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

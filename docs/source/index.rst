@@ -17,7 +17,7 @@ RRIS Intelligent Robotics's Documentation
    RRIS shared control team contributors
 
 :License:
-   Copyright 2022, Rehabilitation Research Institute of Singapore (RRIS)
+   |rris_license|
 
 :Lastest Update: 
    |today|
