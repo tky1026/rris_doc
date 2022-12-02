@@ -159,7 +159,7 @@ Example:
 Addressing team members
 =======================
 
-All team members are assigned a unique substitution tag, see :ref:`intro-team`.
+All team members are assigned a unique substitution tag, see the ``sub`` field of each member at :ref:`intro-team`.
 
 When addressing any of the team members inline, use substitution tag associated to each person to have the tag auto replaced
 by a permanent link with a preset name to the person's details at :ref:`intro-team`.
