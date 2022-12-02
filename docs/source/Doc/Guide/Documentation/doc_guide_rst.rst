@@ -113,18 +113,25 @@ text role ``guilabel``.
 
 Examples:
 
-.. code-block:: rest
+.. tabs::
 
-   Select :guilabel:`File > Open`
+   .. code-tab:: rst
 
+      Select :guilabel:`File > Open`
 
-Select :guilabel:`File > Open`
+   .. tab:: Result
 
-.. code-block:: rest
+      Select :guilabel:`File > Open`
 
-   Click on :guilabel:`ADMIN TOOLS > Extensions` in the backend.
+.. tabs::
 
-Click on :guilabel:`ADMIN TOOLS > Extensions` in the backend.
+   .. code-tab:: rst
+
+      Click on :guilabel:`ADMIN TOOLS > Extensions` in the backend.
+
+   .. tab:: Result
+
+      Click on :guilabel:`ADMIN TOOLS > Extensions` in the backend.
 
 ----
 
@@ -135,10 +142,34 @@ When pointing out keyboard shortcuts or keystroke sequences, use text role ``kbd
 
 Example:
 
-.. code:: rst
+.. tabs::
 
-   Press :kbd:`ctrl` + :kbd:`s`
+   .. code-tab:: rst
 
-How it looks:
+      Press :kbd:`ctrl` + :kbd:`s`
 
-   Press :kbd:`ctrl` + :kbd:`s`
+   .. tab:: Result
+
+      Press :kbd:`ctrl` + :kbd:`s`
+
+----
+
+.. _doc-cgl-member-tag:
+
+Addressing team members
+=======================
+
+All team members are assigned a unique substitution tag, see :ref:`intro-team`.
+
+When addressing any of the team members inline, use substitution tag associated to each person to have the tag auto replaced
+by a permanent link with a preset name to the person's details at :ref:`intro-team`.
+
+.. tabs::
+
+   .. code-tab:: rst
+
+      For example, |rris_kuanyuee| wrote this page.
+
+   .. tab:: Result
+
+      For example, |rris_kuanyuee| wrote this page.

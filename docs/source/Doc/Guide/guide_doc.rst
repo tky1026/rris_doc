@@ -99,6 +99,12 @@ The most important conventions for writing reST files for this documentation are
    
    Always use **three spaces** for one level of indentation, and do not insert *Tab* character for indentation.
 
+#. **Addressing team members**
+
+   Use every team member's unique substitution tag ``|rris_staff|`` when referring to anyone. See :ref:`doc-cgl-member-tag`.
+
+   Each member's unique tag can be found at :ref:`intro-team`.
+
 ----
 
 reStructuredText & Sphinx
