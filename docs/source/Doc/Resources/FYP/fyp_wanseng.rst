@@ -15,7 +15,7 @@ Seamless Indoor Outdoor Navigation
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   :ref:`Wee Ching <rris_staff_weeching>`, :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_weeching|, |rris_kuanyuee|
 
 :School:
    NTU MAE
@@ -30,7 +30,7 @@ Seamless Indoor Outdoor Navigation
    <github-link>
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    16 Nov 2022

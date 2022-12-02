@@ -15,7 +15,7 @@ Performance Evaluation of Local Planner Algorithms for Assistive Wheelchairs in 
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   :ref:`Wee Ching <rris_staff_weeching>`
+   |rris_weeching|
 
 :School:
    NTU MAE
@@ -30,7 +30,7 @@ Performance Evaluation of Local Planner Algorithms for Assistive Wheelchairs in 
    <github-link>
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    17 Nov 2022

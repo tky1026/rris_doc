@@ -43,6 +43,8 @@ Staff
 
      * - ref
        - ``rris_staff_lilei``
+     * - sub
+       - ``|rris_lilei|`` 
      * - Email
        - li_lei@ntu.edu.sg
 
@@ -57,6 +59,8 @@ Staff
 
      * - ref
        - ``rris_staff_kuanyuee``
+     * - sub
+       - ``|rris_kuanyuee|`` 
      * - Email
        - kuanyuee.tan@ntu.edu.sg
      * - GitHub
@@ -76,6 +80,8 @@ Staff
 
      * - ref
        - ``rris_staff_marcusleong``
+     * - sub
+       - ``|rris_marcus|`` 
      * - GitHub
        - `leongkhing <https://github.com/leongkhing>`__
 
@@ -89,6 +95,8 @@ Staff
 
      * - ref
        - ``rris_staff_chinxian``
+     * - sub
+       - ``|rris_chinxian|`` 
      * - GitHub
        - `angcx1997 <https://github.com/angcx1997>`__
 
@@ -102,6 +110,8 @@ Staff
 
      * - ref
        - ``rris_staff_weeching``
+     * - sub
+       - ``|rris_weeching|`` 
      * - GitHub
        - `pweeching <https://github.com/pweeching>`__
 
@@ -115,6 +125,8 @@ Staff
 
      * - ref
        - ``rris_staff_bangyi``
+     * - sub
+       - ``|rris_bangyi|`` 
      * - GitHub
        - `bangyii <https://github.com/bangyii>`__
 
@@ -128,7 +140,7 @@ Documentation
 Maintainers
 -----------
 
-This documentation is currently maintained by :ref:`Kuan Yuee <rris_staff_kuanyuee>`.
+This documentation is currently maintained by |rris_kuanyuee|.
 
 
 .. _team-doc-contributors:
@@ -136,4 +148,4 @@ This documentation is currently maintained by :ref:`Kuan Yuee <rris_staff_kuanyu
 Contributors
 ------------
 
-* :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+* |rris_kuanyuee|

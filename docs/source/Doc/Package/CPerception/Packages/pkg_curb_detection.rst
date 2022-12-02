@@ -17,10 +17,10 @@ Curb Detection
    ROS1 Melodic
 
 :Author:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Maintainer:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :License:
    Proprietary, Rehabilitation Research Institute of Singapore (RRIS)
@@ -32,7 +32,7 @@ Curb Detection
    :ref:`Polylidar3D <lib-polylidar>`
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    10 Aug 2022

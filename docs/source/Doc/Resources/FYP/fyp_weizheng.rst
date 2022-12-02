@@ -15,7 +15,7 @@ Development of Eye Gaze System for Object Selection in Cluttered Environment
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   :ref:`Li Lei <rris_staff_lilei>`, Neha, :ref:`Marcus <rris_staff_marcusleong>`
+   |rris_lilei|, Neha, |rris_marcus|
 
 :School:
    NTU MAE
@@ -30,7 +30,7 @@ Development of Eye Gaze System for Object Selection in Cluttered Environment
    <github-link>
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    17 Nov 2022

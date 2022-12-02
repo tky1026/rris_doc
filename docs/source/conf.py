@@ -41,7 +41,13 @@ intersphinx_mapping = {
 today_fmt = '%d %b %Y, %H:%M'
 
 rst_prolog = """
-.. |rris_license| replace:: Copyright 2022, Rehabilitation Research Institute of Singapore (RRIS)
+.. |rris_license|   replace:: Copyright 2022, Rehabilitation Research Institute of Singapore (RRIS)
+.. |rris_kuanyuee|  replace:: :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+.. |rris_lilei|     replace:: :ref:`Li Lei <rris_staff_lilei>`
+.. |rris_marcus|    replace:: :ref:`Marcus <rris_staff_marcusleong>`
+.. |rris_chinxian|  replace:: :ref:`Chin Xian <rris_staff_chinxian>`
+.. |rris_weeching|  replace:: :ref:`Wee Ching <rris_staff_weeching>`
+.. |rris_bangyi|    replace:: :ref:`Bang Yi <rris_staff_bangyi>`
 """
 
 # -- Options for HTML output -------------------------------------------------

@@ -15,7 +15,7 @@ Development of Haptic Feedback Joystick on Powered Wheelchair for Obstacle Avoid
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   :ref:`Li Lei <rris_staff_lilei>`
+   |rris_lilei|
 
 :School:
    NTU MAE
@@ -30,7 +30,7 @@ Development of Haptic Feedback Joystick on Powered Wheelchair for Obstacle Avoid
    <github-link>
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    17 Nov 2022

@@ -1,3 +1,5 @@
+.. include:: /includes.rst.txt
+
 ============
 FYP Handover
 ============
@@ -17,7 +19,7 @@ For new FYP documentation, please start from the templates below:
 .. literalinclude:: /Doc/_Templates/fyp.rst.txt
    :language: rst
 
-* Name the documentation ``.rst`` file with format ``fyp_firstname.rst``. The file should store within folder ``FYP``.
+* Name the documentation ``.rst`` file with format ``fyp_firstname.rst``. The file should store within folder :dir:`FYP`.
 
 * If the student uploads the final report to `DR-NTU <https://dr.ntu.edu.sg/>`__, 
   go to the item record to get the **identifier link** for ``DR-NTU``. Otherwise put a ``NA``.

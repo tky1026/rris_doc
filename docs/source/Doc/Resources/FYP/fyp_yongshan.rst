@@ -15,7 +15,7 @@ Human-aware Robot Navigation for Assistive Wheelchair
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   :ref:`Wee Ching <rris_staff_weeching>`
+   |rris_weeching|
 
 :School:
    NTU MAE
@@ -30,7 +30,7 @@ Human-aware Robot Navigation for Assistive Wheelchair
    <github-link>
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    17 Nov 2022

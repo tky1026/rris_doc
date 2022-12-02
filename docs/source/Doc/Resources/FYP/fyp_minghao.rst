@@ -15,7 +15,7 @@ Development of Obstacle Avoidance Strategy for a Shared Control Wheelchair
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   :ref:`Li Lei <rris_staff_lilei>`, :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_lilei|, |rris_kuanyuee|
 
 :School:
    NTU MAE
@@ -30,7 +30,7 @@ Development of Obstacle Avoidance Strategy for a Shared Control Wheelchair
    <github-link>
 
 :Documentation:
-   :ref:`Kuan Yuee <rris_staff_kuanyuee>`
+   |rris_kuanyuee|
 
 :Latest update:
    17 Nov 2022
