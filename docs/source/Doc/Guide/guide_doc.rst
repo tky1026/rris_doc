@@ -116,16 +116,6 @@ Read syntax and reference for reStructuredText (also referred to as reST) and Sp
 
 ----
 
-Writing new documentation
-=========================
-
-.. toctree:: 
-   :maxdepth: 1
-
-   Documentation/doc_boilerplate
-
-----
-
 Hosting this documentation
 ==========================
 
@@ -145,3 +135,4 @@ Read the following contribution guide on how to contribute to this documentation
    :maxdepth: 1
 
    Documentation/doc_contrib
+   Documentation/doc_boilerplate
