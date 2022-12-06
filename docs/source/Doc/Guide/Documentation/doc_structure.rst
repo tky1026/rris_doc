@@ -17,6 +17,7 @@ Further conventions are:
 * Markdown files have the extension ``.md``.
 * Included reST files have the extension ``.rst.txt``.
 * Use **CamelCase** for directory and **camel_case** for file names, for example: ``Documentation/MyProject/file_a.rst``.
+* Do not use whitespace and hypen ``-`` for filenames, use underscores ``_`` instead.
 * All documenation files are recommended to named with appropriate prefixes.
 
 These conventions pave the way for the documentation style and organization, they are being preferred for several reasons.
@@ -76,16 +77,104 @@ Documentation
 =============
 
 All documentation files resides within :dir:`source/Doc`. 
-The organization of this directory has been categorized into ...
+The organization of this directory has been categorized into:
 
-Naming conventions
+* `Intro`_
+* `Project`_
+* `Package`_
+* `Guide`_
+* `Resources`_
+* `Other`_
+* `Templates`_
 
-**_Templates**
-   .txt
+Intro
+-----
 
-**Guide**
+:dir:`Intro` contains only two files:
 
+- ``overview.rst``
 
+   Overview of the project team, and brief description about this documentation.
 
+- ``team.rst``
 
-TODO
+   Contains team members information, members' reference tag, and documentation maintainers and contributors information.
+
+Project
+-------
+
+Project description documentation should resides within :dir:`Project`.
+
+Project documentation should follow :ref:`rsrs_template_project`.
+
+Package
+-------
+
+In :dir:`Package` directory, files are further categorized into several directories based on their topics:
+
+- CCloud
+- CControl
+- CEmbedded
+- CExperiment
+- CMisc
+- CPerception
+- CPlanning
+- CUserInterface
+
+.. code-block::
+
+   source/Doc/Package/
+   └── CTopics
+       ├── index.rst
+       ├── Packages
+       │   ├── pkg_1.rst
+       │   ├── pkg_2.rst
+       │   └── ...
+       └── Tools
+           ├── lib_1.rst
+           ├── lib_2.rst
+           └── ...
+
+**index.rst**
+   :rst:`toctree` of the subdirectory.
+
+**Packages**
+   ROS packages docmentation goes to :dir:`CTopics/Packages`.
+   
+   All documentation file should follow :ref:`rsrs_template_package`, and file naming should start with prefix ``pkg_``.
+
+**Tools**
+   Non-ROS related topics goes to :dir:`CTopics/Tools`.
+   
+   Usually documents belongs to this category are further discription of some software, third-party libraries, tools etc. 
+   
+   Hence it is not necessary to follow any templates.
+
+Guide
+-----
+
+:dir:`Guide` contains guidelines for documentation, coding guidelines, and serveral other topics.
+
+* Documentation related guide should resides in :dir:`Documentation` and have prefix ``doc_``.
+* Coding related guide should resides in :dir:`Coding/<language>` and have prefix ``code_<language>_``.
+
+Resources
+---------
+
+:dir:`Resources` contains dataset, publication, learning resources and student related materials.
+
+* FYP related information please refer to :ref:`rsrs_student`.
+
+Other
+-----
+
+Other uncategorized topics goes to :dir:`Other`.
+
+Templates
+---------
+
+Boilerplates are stored within :dir:`_Templates`.
+
+.. important:: 
+
+   Boilerplate files should end with extension ``.rst.txt``.

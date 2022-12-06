@@ -1,3 +1,5 @@
+.. _rsrs_student:
+
 ========
 Students
 ========
