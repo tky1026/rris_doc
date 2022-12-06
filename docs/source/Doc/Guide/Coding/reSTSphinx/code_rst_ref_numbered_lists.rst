@@ -53,8 +53,8 @@ Example
 
    j. lower-case letters
 
-      1) with a sub-list starting at a different number
-      2) make sure the numbers are in the correct sequence though!
+      3) with a sub-list starting at a different number
+      4) make sure the numbers are in the correct sequence though!
 
    #. This item is auto-enumerated
 

@@ -29,6 +29,7 @@ Whitespace and indentation
 Example:
 
 .. code-block:: rst
+   :linenos:
 
    .. image:: ../images/a4.jpg
       :alt: RRIS image

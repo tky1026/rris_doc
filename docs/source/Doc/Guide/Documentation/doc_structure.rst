@@ -146,7 +146,7 @@ In :dir:`Package` directory, files are further categorized into several director
 **Tools**
    Non-ROS related topics goes to :dir:`CTopics/Tools`.
    
-   Usually documents belongs to this category are further discription of some software, third-party libraries, tools etc. 
+   Usually documents belongs to this category are further description of some software, third-party libraries, tools etc. 
    
    Hence it is not necessary to follow any templates.
 

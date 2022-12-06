@@ -36,7 +36,7 @@ In order to be consistent throughtout the whole documentation, we use the follow
 
 #. For the rest of the sections within the document:
 
-   .. code-block:: rst
+   .. code-block:: text
 
       1. ======= for the first  level
       2. ------- for the second level
@@ -47,7 +47,7 @@ In order to be consistent throughtout the whole documentation, we use the follow
    For sake of completeness here is the whole hierarchy the automatic conversion tools uses. 
    Stick to this order if more levels are needed:
 
-   .. code-block:: rst
+   .. code-block:: text
 
       5. '''''''
       6. ^^^^^^^

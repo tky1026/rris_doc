@@ -13,7 +13,7 @@ Also read :ref:`common pitfalls <code-rst-pitfall>` in order to avoid common mis
 
 You don’t need to read the entire chapter, just lookup the section that is relevant for what you plan to do. Or, use the :ref:`reST & Sphinx cheat sheet <code-rst-cheatsheet>`, which contains the most commonly used markup on one page.
 
-We won’t be covering every reST markup that is available. For more information, see other resources, such as: `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_.
+We won’t be covering every reST markup that is available. For more information, see other resources :ref:`here <code-rst-ref-extref>`.
 
 **Table of contents**
 

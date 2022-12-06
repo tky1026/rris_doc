@@ -31,7 +31,7 @@ Documentation content style
 This section contains conventions, coding guidelines and best practices for contributing to this documentation.
 In general, the documentation follows the conventions as described in the following sections.
 
-We mainly uses :term:`reStructuredText(reST) <reST>` markup language for writing docuementation, the file ending of reST files is ``.rst``.
+We mainly uses :term:`reStructuredText(reST) <reST>` markup language for writing documentation, the file ending of reST files is ``.rst``.
 However, :term:`Markdown` format with file ending ``.md`` is acceptable as well.
 
 For syntax and reference of reStructuredText, refer to next section: `reStructuredText & Sphinx`_.

@@ -55,9 +55,9 @@ If you want to use a character, which would create some special reST markup, wit
 
 For example asterik symbol ``*`` within the text normally makes text shows up in italics::
 
-   *non-italic*
+   *italic*
 
-* *non-italic*
+* *italic*
 
 By escaping the special characters ``\*``, the asterik symbol displays as normal text characters::
 

@@ -50,7 +50,7 @@ Optional parameters:
    .. image:: ../../../../Asset/rris-home.jpeg
       :alt: RRIS front door image
       :scale: 20
-      :align: left
+      :align: center
       :target: https://www.ntu.edu.sg/rris
 
 .. image:: ../../../../Asset/rris-home.jpeg
@@ -94,6 +94,15 @@ The figure directive supports all of the options of the `Image`_ directive. In a
 ``:figclass:``
 
    Set a "class" attribute value on the figure element.
+
+.. code-block:: rst
+
+   .. figure:: /Asset/rris-home.jpeg
+      :figwidth: 250
+      :scale: 10
+      :alt: RRIS front door figure
+
+      Welcome to Rehabilitation Research Institute of Singapore
 
 .. figure:: /Asset/rris-home.jpeg
    :figwidth: 250

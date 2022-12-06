@@ -8,4 +8,4 @@ This reference guide only covers what most relevant to this documentation.
 
 For more detailed guide, refer to sources:
 
-* TODO
+* `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`__
