@@ -1,3 +1,7 @@
+.. include:: /includes.rst.txt
+
+.. _doc-wgl:
+
 ===========================
 Documentation Writing Style
 ===========================
@@ -287,6 +291,23 @@ In all other cases, we use capital spelling for Git, because it applies to the r
 It is also recommended to use backticks **\`** to highlight the commands, like ``cd ~/Desktop``, ``sudo apt-get install``.
 
 The same goes for **Docker**, **Conda**, etc.
+
+.. _doc-wgl_directories:
+
+Directories
+~~~~~~~~~~~
+
+When mentioning directories or folders, use :rst:`:dir:`path\to\file`` role to render the directories with special style highlights.
+
+In order to use :rst:`dir` role, need to include ``includes.rst.txt`` at the top of documentation file.
+
+.. code-block:: rst
+
+   .. include:: /includes.rst.txt
+
+   This documentation file is located at :dir:`/Doc/Guide/Documentation/doc_writing.rst`.
+
+This documentation file is located at :dir:`/Doc/Guide/Documentation/doc_writing.rst`.
 
 ----
 

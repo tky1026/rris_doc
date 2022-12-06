@@ -6,9 +6,9 @@
    <package-name>
 
 :Members:
-   <maintainer-ref>
+   |maintainer-tag|
 
-   <maintainer-ref>
+   |maintainer-tag|
 
 :GitHub:
    <github-link>

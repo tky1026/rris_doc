@@ -15,7 +15,7 @@
    <supervisor>
 
 :Researchers:
-   <researcher-ref>
+   |researcher-tag|
 
 :School:
    <school>
@@ -30,7 +30,7 @@
    <github-link>
 
 :Documentation:
-   <writer-ref>
+   |researcher-tag|
 
 :Latest update:
    <date>
