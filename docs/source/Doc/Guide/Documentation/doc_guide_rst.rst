@@ -174,3 +174,38 @@ by a permanent link with a preset name to the person's details at :ref:`intro-te
    .. tab:: Result
 
       For example, |rris_kuanyuee| wrote this page.
+
+----
+
+Text substitution
+=================
+
+Text substitution takes place when the documentation is being rendered to HTML. 
+
+Currently available text substitution tag and corresponding replacement:
+
+.. list-table:: 
+
+   * - ``|rris_copyright|``
+     - |rris_copyright|
+   * - ``|rris_license|``
+     - |rris_license|
+   * - ``|lang_cpp|``
+     - |lang_cpp|
+   * - ``|lang_py3|``
+     - |lang_py3|
+   * - ``|lang_js|``
+     - |lang_js|
+   * - ``|lang_css|``
+     - |lang_css|
+   * - ``|lang_html|``
+     - |lang_html|
+   * - ``|ros_melodic|``
+     - |ros_melodic|
+   * - ``|ros_noetic|``
+     - |ros_noetic|
+   * - ``|ros_foxy|``
+     - |ros_foxy| 
+
+
+For team members' substitution tag, please refer to :ref:`intro-team`.

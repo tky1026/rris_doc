@@ -44,7 +44,7 @@ H
 
 J
 
-`Javascript`
+`JavaScript`
 
 K
 
@@ -68,7 +68,8 @@ P
 
 `PDF`,
 `Proprietary`,
-`Python`
+`Python`,
+`Python3`
 
 R
 

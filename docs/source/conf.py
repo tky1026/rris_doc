@@ -51,7 +51,12 @@ rst_prolog = """
 .. |rris_bangyi|    replace:: :ref:`Bang Yi <rris_staff_bangyi>`
 .. |lang_cpp|       replace:: :bdg-secondary:`C++`
 .. |lang_py3|       replace:: :bdg-secondary:`Python3`
+.. |lang_js|        replace:: :bdg-secondary:`JavaScript`
+.. |lang_css|       replace:: :bdg-secondary:`CSS`
+.. |lang_html|      replace:: :bdg-secondary:`HTML`
 .. |ros_melodic|    replace:: :bdg-primary:`ROS1` :bdg-primary-line:`melodic`
+.. |ros_noetic|     replace:: :bdg-primary:`ROS1` :bdg-primary-line:`noetic`
+.. |ros_foxy|       replace:: :bdg-info:`ROS2` :bdg-info-line:`foxy`
 """
 
 # -- Options for HTML output -------------------------------------------------
