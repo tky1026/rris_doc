@@ -9,10 +9,10 @@
    <version>
 
 :Language:
-   ``<code-lang>``
+   |lang_tag|
 
 :ROS:
-   <ros-version> <ros-distribution>
+   |ros_version_tag|
 
 :Author:
    |author-tag|
@@ -21,7 +21,7 @@
    |maintainer-tag|
 
 :License:
-   Proprietary, Rehabilitation Research Institute of Singapore (RRIS)
+   |rris_license|
 
 :GitHub:
    <github-link>

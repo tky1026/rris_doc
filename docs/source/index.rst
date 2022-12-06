@@ -17,7 +17,7 @@ RRIS Intelligent Robotics's Documentation
    RRIS shared control team contributors
 
 :License:
-   |rris_license|
+   |rris_copyright|
 
 :Lastest Update: 
    |today|

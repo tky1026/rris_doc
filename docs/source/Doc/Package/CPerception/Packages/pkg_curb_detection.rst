@@ -11,10 +11,10 @@ Curb Detection
    1.0
 
 :Language:
-   ``C++`` ``Python3``
+   |lang_cpp| |lang_py3|
 
 :ROS:
-   ROS1 Melodic
+   |ros_melodic|
 
 :Author:
    |rris_kuanyuee|
@@ -23,7 +23,7 @@ Curb Detection
    |rris_kuanyuee|
 
 :License:
-   Proprietary, Rehabilitation Research Institute of Singapore (RRIS)
+   |rris_license|
 
 :GitHub:
    `curb_detection <https://github.com/tky1026/CurbClimbing_ws>`__

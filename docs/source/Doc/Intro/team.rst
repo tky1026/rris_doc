@@ -1,3 +1,4 @@
+.. include:: /includes.rst.txt
 .. _intro-team:
 
 ====
@@ -12,12 +13,12 @@ Staff
 * Staff 1
   
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_staff1``
-     * - Email
+     * - :icon:`mail`
        - staff1@ntu.edu.sg
 
 .. _rris_staff_staff2:
@@ -25,12 +26,12 @@ Staff
 * Staff 2
   
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_staff2``
-     * - Email
+     * - :icon:`mail`
        - staff2@ntu.edu.sg
 
 .. _rris_staff_lilei:
@@ -38,14 +39,14 @@ Staff
 * **Li Lei (Dr)**
   
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_lilei``
-     * - sub
+     * - :icon:`tag`
        - ``|rris_lilei|`` 
-     * - Email
+     * - :icon:`mail`
        - li_lei@ntu.edu.sg
 
 
@@ -54,16 +55,16 @@ Staff
 * **Tan Kuan Yuee**
   
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_kuanyuee``
-     * - sub
+     * - :icon:`tag`
        - ``|rris_kuanyuee|`` 
-     * - Email
+     * - :icon:`mail`
        - kuanyuee.tan@ntu.edu.sg
-     * - GitHub
+     * - :icon:`mark-github`
        - `tky1026 <https://github.com/tky1026>`__
 
 ----
@@ -75,14 +76,14 @@ Staff
 * Marcus Leong Khee Ing
 
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_marcusleong``
-     * - sub
+     * - :icon:`tag`
        - ``|rris_marcus|`` 
-     * - GitHub
+     * - :icon:`mark-github`
        - `leongkhing <https://github.com/leongkhing>`__
 
 .. _rris_staff_chinxian:
@@ -90,14 +91,14 @@ Staff
 * Ang Chin Xian
 
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_chinxian``
-     * - sub
+     * - :icon:`tag`
        - ``|rris_chinxian|`` 
-     * - GitHub
+     * - :icon:`mark-github`
        - `angcx1997 <https://github.com/angcx1997>`__
 
 .. _rris_staff_weeching:
@@ -105,14 +106,14 @@ Staff
 * Pang Wee Ching (Dr)
 
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_weeching``
-     * - sub
+     * - :icon:`tag`
        - ``|rris_weeching|`` 
-     * - GitHub
+     * - :icon:`mark-github`
        - `pweeching <https://github.com/pweeching>`__
 
 .. _rris_staff_bangyi:
@@ -120,14 +121,14 @@ Staff
 * Tan Bang Yi
 
   .. list-table::
-     :widths: 10 30
+     :widths: 10 50
      :stub-columns: 1
 
-     * - ref
+     * - :icon:`link`
        - ``rris_staff_bangyi``
-     * - sub
+     * - :icon:`tag`
        - ``|rris_bangyi|`` 
-     * - GitHub
+     * - :icon:`mark-github`
        - `bangyii <https://github.com/bangyii>`__
 
 ----

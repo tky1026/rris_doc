@@ -4,3 +4,5 @@
 
 .. role:: rst(code)
 .. role:: dir
+
+.. role:: icon(octicon)

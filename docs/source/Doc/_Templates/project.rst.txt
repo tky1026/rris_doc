@@ -14,7 +14,7 @@
    <github-link>
 
 :Documentation:
-   <writer-ref>
+   |writer-tag|
 
 :Latest update:
    <date>
