@@ -1,36 +1,30 @@
 =======
-<Title>
+<title>
 =======
 
-:Project title:
-   <project>
+:Title:
+   <title>
 
-:Academic year:
-   <academic-year>
+:Author:
+   |author-tag|
 
-:Student:
-   <student>
+:PDF:
+   <link-ondrive-pdf>
 
-:Supervisor:
-   <supervisor>
+:Journal/Conference:
+   <submission>
 
-:Researchers:
-   |researcher-tag|
+:Year:
+   <year>
 
-:School:
-   <school>
+:Status:
+   <submission-status>
 
-:DR-NTU:
-   <drntu-link>
-
-:Final report:
-   <report-link>
-
-:GitHub:
-   <github-link>
+:Data:
+   <link-ondrive>
 
 :Documentation:
-   |researcher-tag|
+   |writer-tag|
 
 :Latest update:
    <date>
