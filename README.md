@@ -1,6 +1,26 @@
 # RRIS Documentation
 
-Build this documentation using sphinx
+## Building the documentation
+1. Create conda environment
+    ```
+    conda create -n rris_doc python=3.9
+    conda activate rris_doc
+    ```
+
+1. Install required packages
+    ```
+    pip install sphinx==4.5.0
+    pip install sphinx-rtd-theme==1.0.0
+    pip install sphinx-tabs==3.3.1
+    pip install sphinx-copybutton
+    pip install sphinx-design
+    pip install sphinxcontrib-youtube
+    pip install Sphinx-Substitution-Extensions
+    pip install --upgrade myst-parser
+    ```
+    - *Note: Building the documentation requires Python>=3.7, sphinx==4.5.0 and sphinx-rtd-theme==1.0.0. For proper rendering, install version specific packages if specified.*
+
+1. Build this documentation using sphinx
 
 ```bash
 cd docs
