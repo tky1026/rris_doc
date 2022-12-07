@@ -17,8 +17,15 @@ The following sections describes how to build this documentation locally and vie
 
 2. **Install required packages**
 
+    Install Sphinx, Read-the-Docs theme and extensions.
 
-    Install Sphinx, Read-the-Docs theme and extensions
+    For this doucmentation
+    ```bash
+    pip install -r docs/requirements.txt
+    ```
+
+    Or in general
+
     ```bash
     pip install sphinx==4.5.0 
     pip install sphinx-rtd-theme==1.0.0
@@ -38,20 +45,20 @@ The following sections describes how to build this documentation locally and vie
 
 3. **Build docs**
 
+    For building this documentation
+    ```bash
+    clone
+    cd docs
+    mkdir build
+    make html
+    ```
+
     For new documentation
     ```bash
     mkdir docs
     cd docs
     sphinx-quickstart
     # setup project configuration, then
-    make html
-    ```
-
-    For building this documentation
-    ```bash
-    clone
-    cd docs
-    mkdir build
     make html
     ```
 

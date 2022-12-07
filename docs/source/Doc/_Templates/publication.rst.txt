@@ -9,7 +9,7 @@
    |author-tag|
 
 :PDF:
-   <link-ondrive-pdf>
+   <link-onedrive-pdf>
 
 :Journal/Conference:
    <submission>
@@ -21,7 +21,7 @@
    <submission-status>
 
 :Data:
-   <link-ondrive>
+   <link-onedrive>
 
 :Documentation:
    |writer-tag|
