@@ -15,7 +15,7 @@ Goal-oriented Grasping in Clutter With Human-in-The-loop Implementation
    Assoc Prof Ang Wei Tech
 
 :Researchers:
-   Neha, |rris_kuanyuee|, J-Anne
+   Neha, |rris_kuanyuee|, |rris_janne|
 
 :School:
    NTU MAE

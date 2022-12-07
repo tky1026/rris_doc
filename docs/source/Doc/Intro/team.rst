@@ -67,6 +67,23 @@ Staff
      * - :icon:`mark-github`
        - `tky1026 <https://github.com/tky1026>`__
 
+.. _rris_staff_janne:
+
+* **J-Anne Yow**
+  
+  .. list-table::
+     :widths: 10 50
+     :stub-columns: 1
+
+     * - :icon:`link`
+       - ``rris_staff_janne``
+     * - :icon:`tag`
+       - ``|rris_janne|`` 
+     * - :icon:`mail`
+       - janne.yow@ntu.edu.sg
+     * - :icon:`mark-github`
+       - `janneyow <https://github.com/janneyow>`__
+
 ----
 
 **Previous Staff**
