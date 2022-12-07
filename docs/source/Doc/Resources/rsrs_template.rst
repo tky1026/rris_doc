@@ -24,3 +24,10 @@ FYP documentation template
 ==========================
 
 .. literalinclude:: /Doc/_Templates/fyp.rst.txt
+
+.. _rsrs_template_publication:
+
+Publication documentation template
+==================================
+
+.. literalinclude:: /Doc/_Templates/publication.rst.txt

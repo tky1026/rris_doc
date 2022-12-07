@@ -42,7 +42,7 @@ Table of Contents
    :maxdepth: 1
    :caption: Resources
 
-   Dataset Repository <Doc/Resources/rsrs_dataset>
+   Repository <Doc/Resources/rsrs_repository>
    Publications <Doc/Resources/rsrs_publication>
    Students <Doc/Resources/rsrs_student>
    Learning <Doc/Resources/rsrs_learning>

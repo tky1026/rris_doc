@@ -1,0 +1,44 @@
+=======
+<Title>
+=======
+
+:Project title:
+   <project>
+
+:Academic year:
+   <academic-year>
+
+:Student:
+   <student>
+
+:Supervisor:
+   <supervisor>
+
+:Researchers:
+   |researcher-tag|
+
+:School:
+   <school>
+
+:DR-NTU:
+   <drntu-link>
+
+:Final report:
+   <report-link>
+
+:GitHub:
+   <github-link>
+
+:Documentation:
+   |researcher-tag|
+
+:Latest update:
+   <date>
+
+----
+
+<abstract>
+
+----
+
+<details>
