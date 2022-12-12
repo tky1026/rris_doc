@@ -2,13 +2,20 @@
 
 ## Building the documentation
 1. Create conda environment
-    ```
+    ```bash
     conda create -n rris_doc python=3.9
     conda activate rris_doc
     ```
 
 1. Install required packages
+
+    ```bash
+    pip install -r docs/requirements.txt
     ```
+
+    Or
+
+    ```bash
     pip install sphinx==4.5.0
     pip install sphinx-rtd-theme==1.0.0
     pip install sphinx-tabs==3.3.1
@@ -22,11 +29,11 @@
 
 1. Build this documentation using sphinx
 
-```bash
-cd docs
-mkdir build
-make html
-```
+    ```bash
+    cd docs
+    mkdir build
+    make html
+    ```
 
 ### Read the Docs
 
