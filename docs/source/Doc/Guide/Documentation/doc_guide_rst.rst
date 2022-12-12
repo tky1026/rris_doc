@@ -1,3 +1,4 @@
+.. include:: /includes.rst.txt
 .. _doc-cgl-rest:
 
 =============================
@@ -112,8 +113,6 @@ text role ``guilabel``.
 
    Use the spelling of the word as used in the GUI!
 
-Examples:
-
 .. tabs::
 
    .. code-tab:: rst
@@ -141,8 +140,6 @@ Referring to keystrokes
 
 When pointing out keyboard shortcuts or keystroke sequences, use text role ``kbd``.
 
-Example:
-
 .. tabs::
 
    .. code-tab:: rst
@@ -152,6 +149,33 @@ Example:
    .. tab:: Result
 
       Press :kbd:`ctrl` + :kbd:`s`
+
+----
+
+Referring to directories
+========================
+
+When pointing out folders/directories, use text role ``dir``.
+
+.. tabs:: 
+
+   .. code-tab:: rst
+
+      .. include:: /includes.rst.txt
+      
+      Full path to this file is :dir:`docs/source/Doc/Guide/Documentation/doc_guide_rst.rst`.
+
+   .. tab:: Result
+
+      Full path to this file is :dir:`docs/source/Doc/Guide/Documentation/doc_guide_rst.rst`.
+
+.. note:: 
+
+   Need to include ``includes.rst.txt`` for text role ``dir``.
+
+   .. code-block:: rst
+
+      .. include:: /includes.rst.txt
 
 ----
 

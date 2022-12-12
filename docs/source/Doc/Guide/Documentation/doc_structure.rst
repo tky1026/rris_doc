@@ -105,7 +105,7 @@ Project
 
 Project description documentation should resides within :dir:`Project`.
 
-Project documentation should follow :ref:`rsrs_template_project`.
+Project documentation should follow :ref:`rsrs-template-project`.
 
 Package
 -------
@@ -141,7 +141,7 @@ In :dir:`Package` directory, files are further categorized into several director
 **Packages**
    ROS packages docmentation goes to :dir:`CTopics/Packages`.
    
-   All documentation file should follow :ref:`rsrs_template_package`, and file naming should start with prefix ``pkg_``.
+   All documentation file should follow :ref:`rsrs-template-package`, and file naming should start with prefix ``pkg_``.
 
 **Tools**
    Non-ROS related topics goes to :dir:`CTopics/Tools`.

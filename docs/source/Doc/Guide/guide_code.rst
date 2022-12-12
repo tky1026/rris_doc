@@ -19,4 +19,4 @@ Coding Guide
    :caption: ROS
    :maxdepth: 1
 
-   ROS/ros_pkg_structure
+   ROS Package Structure <ROS/ros_pkg_structure.rst>
