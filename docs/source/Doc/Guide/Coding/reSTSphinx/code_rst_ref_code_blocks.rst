@@ -267,6 +267,15 @@ Show a directory tree
          ├── ...
          └── installed.json
 
+.. note:: 
+
+   The preferred style of showing directory tree for this documentation is the tree-like hierarchical structure 
+   using command :code:`tree` with :code:`--dirsfirst` option.
+
+   .. code-block:: shell
+
+      tree --dirsfirst DIRECTORY
+
 ----
 
 .. _code-rst-ref-code-blocks-literalinclude:

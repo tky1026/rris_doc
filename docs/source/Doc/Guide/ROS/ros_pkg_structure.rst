@@ -1,3 +1,4 @@
+.. include:: /includes.rst.txt
 .. _ros-ros-pkg-structure:
 
 =====================
@@ -8,67 +9,87 @@ This page describes general guidelines for structuring ROS packages. For ROS cod
 
 ----
 
+C++ packages
+============
+
+Package structure
+-----------------
+
+TODO
+
+Naming conventions
+------------------
+
+TODO
+
+----
+
 .. _ros-ros-pkg-structure-python:
 
-Python Package
-==============
+Python packages
+===============
 
-Package Structure
+Package structure
 -----------------
 ROS Python packages should have the following structure:
 
-.. code-block:: text
+.. code-block:: none
 
-    sample_pkg
-    |- launch/
-        |- sample_launch_file.launch
-    |- scripts/
-        |- sample_ros_node.py
-    |- rviz/
-        |- cfg.rviz
-    |- src/
-        |- sample_python_module/
-        |- __init__.py
-        |- main.py
-        |- sample_class.py
-        |- python_sub_module/
-            |- __init__.py
-            |- sub_class.py
-    - CMakeLists.txt
-    - LICENSE
-    - package.xml
-    - README.md
-    - setup.py
+   sample_pkg/
+   ├── launch
+   │   └── sample_launch.launch
+   ├── rviz
+   │   └── cfg.rviz
+   ├── scripts
+   │   └── sample_ros_node.py
+   ├── src
+   │   └── sample_python_module
+   │       ├── python_sub_module
+   │       │   ├── __init__.py
+   │       │   └── sub_class.py
+   │       ├── __init__.py
+   │       ├── main.py
+   │       └── sample_class.py
+   ├── CMakeLists.txt
+   ├── LICENSE
+   ├── package.xml
+   ├── README.md
+   └── setup.py
 
 
 .. note::
 
-    Note that standard convention is to name the Python module (sample_python_module) the same as the ROS package name (sample_pkg). They are named differently here for clarity.
+   Note that standard convention is to name the Python module (sample_python_module) the same as the ROS package name (sample_pkg). 
+   They are named differently here for clarity.
 
 
-* Place python nodes in the ``scripts/`` folder.
+* Place python nodes in the :dir:`scripts` folder.
 
-* Python nodes have to be given execute permisions with chmod
-    .. code-block:: text
-        
-        chmod +x scripts/sample_ros_node.py
+* Python nodes have to be given execute permisions with ``chmod``
+  
+   .. code-block:: text
+      
+      chmod +x scripts/sample_ros_node.py
 
 
-* Place python modules and submodules under ``src/`` folder.
+* Place python modules and submodules under :dir:`src` folder.
+  
    - Python requires each module to have an ``__init__.py`` file.
 
-* Any rviz files can be stored in the ``rviz/`` folder.
+* Any rviz files can be stored in the :dir:`rviz` folder.
 
 Naming conventions
-~~~~~~~~~~~~~~~~~~
-   - Standard convention is to name the Python module the same as the ROS package name.
-    
-    .. note::
+------------------
+- Standard convention is to name the Python module the same as the ROS package name.
 
-        Note that in this package, the ROS package name and Python module names are named differently for clarity.
+   .. note::
+
+      Note that in the example package above, the ROS package name and Python module names are named differently for clarity.
+
+- ROS node name should be the same as the script name.
+- All folder names and file names are **camel_cased**.
    
-   - ROS node name should be the same as the script name.
-   
+----
 
 References
 ----------
