@@ -144,11 +144,11 @@ When pointing out keyboard shortcuts or keystroke sequences, use text role ``kbd
 
    .. code-tab:: rst
 
-      Press :kbd:`ctrl` + :kbd:`s`
+      Press :kbd:`ctrl` + :kbd:`a`
 
    .. tab:: Result
 
-      Press :kbd:`ctrl` + :kbd:`s`
+      Press :kbd:`ctrl` + :kbd:`a`
 
 ----
 

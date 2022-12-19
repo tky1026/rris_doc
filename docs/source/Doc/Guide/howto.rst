@@ -7,3 +7,4 @@ How-Tos
 
    HowTo/howto_tools_doc
    HowTo/howto_ops_wheelchair
+   HowTo/howto_setup_ubuntu
