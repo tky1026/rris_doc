@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'RRIS Intelligent Robotics'
-copyright = '2022, Rehabilitation Research Institute of Singapore (RRIS)'
+copyright = '2023, Rehabilitation Research Institute of Singapore (RRIS)'
 author = 'KY'
 release = '1.0'
 version = '1.0'
@@ -41,7 +41,7 @@ intersphinx_mapping = {
 today_fmt = '%d %b %Y, %H:%M'
 
 rst_prolog = """
-.. |rris_copyright| replace:: Copyright 2022, Rehabilitation Research Institute of Singapore (RRIS)
+.. |rris_copyright| replace:: Copyright 2023, Rehabilitation Research Institute of Singapore (RRIS)
 .. |rris_license|   replace:: Proprietary, Rehabilitation Research Institute of Singapore (RRIS)
 .. |rris_kuanyuee|  replace:: :ref:`Kuan Yuee <rris_staff_kuanyuee>`
 .. |rris_janne|     replace:: :ref:`J-Anne <rris_staff_janne>`

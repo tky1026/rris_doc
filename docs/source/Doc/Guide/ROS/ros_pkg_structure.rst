@@ -36,10 +36,6 @@ ROS Python packages should have the following structure:
 .. code-block:: none
 
    sample_pkg/
-   ├── launch
-   │   └── sample_launch.launch
-   ├── rviz
-   │   └── cfg.rviz
    ├── scripts
    │   └── sample_ros_node.py
    ├── src
@@ -76,8 +72,6 @@ ROS Python packages should have the following structure:
   
    - Python requires each module to have an ``__init__.py`` file.
 
-* Any rviz files can be stored in the :dir:`rviz` folder.
-
 Naming conventions
 ------------------
 - Standard convention is to name the Python module the same as the ROS package name.
@@ -91,8 +85,87 @@ Naming conventions
    
 ----
 
+Common files
+============
+
+These common files should be included in all RRIS's ROS packages.
+
+``LICENSE``
+   RRIS proprietary license file must be included in every package.
+
+``README.md``
+   A readme describing the package, installation, nodes, parameters, etc. 
+   
+   We have the templates of readme at TODO.
+
+``package.xml``
+   The package manifest is an XML file called ``package.xml`` that must be included with any catkin-compliant package's root folder.
+
+   Fill in the following required tags accordingly:
+
+   .. code-block:: xml
+
+      <maintainer email="email@todo.todo">name</maintainer>
+      <license>Proprietary</license>
+
+
+----
+
+Other directories
+=================
+
+Regardless of C++ or Python ROS packages, the following naming conventions for common directories are preferred.
+
+:dir:`config`
+   Configuration files like ``yaml``, ``json``, etc. 
+
+:dir:`data`
+   Input/Output data to be stored within :dir:`data` by default.
+   
+:dir:`launch`
+   Directory for ROS launch files.
+
+:dir:`rviz`
+   Any RViz configuration files can be stored within :dir:`rviz`
+
+Hence, a common ROS package structure may look similar:
+
+.. tabs:: 
+
+   .. code-tab:: none C++
+
+      sample_pkg/
+      ├── config/
+      ├── data/
+      ├── include/
+      ├── launch/
+      ├── rviz/
+      ├── src/
+      ├── CMakeLists.txt
+      ├── LICENSE
+      ├── package.xml
+      └── README.md
+
+   .. code-tab:: none Python
+
+      sample_pkg/
+      ├── config/
+      ├── data/
+      ├── launch/
+      ├── rviz/
+      ├── scripts/
+      ├── src/
+      ├── CMakeLists.txt
+      ├── LICENSE
+      ├── package.xml
+      ├── README.md
+      └── setup.py
+
+
+----
+
 References
-----------
+==========
 1. `ROS PyStyleGuide`_
 2. `ROS docs (Jade)`_
 3. `Understanding how ROS sources Python modules`_
