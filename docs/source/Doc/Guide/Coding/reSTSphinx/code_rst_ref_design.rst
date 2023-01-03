@@ -134,6 +134,17 @@ For example:
 
    Instead of using :rst:`octicon` directive, one can also :rst:`.. include:: /includes/rst.txt`, then use :rst:`icon` directive.
 
+   .. tabs::
+
+      .. code-tab:: rst
+
+         .. include:: /includes.rst.txt
+         This is a GitHub icon :icon:`mark-github`.
+      
+      .. tab:: output
+
+         This is a GitHub icon :icon:`mark-github`.
+
 ----
 
 Article-info

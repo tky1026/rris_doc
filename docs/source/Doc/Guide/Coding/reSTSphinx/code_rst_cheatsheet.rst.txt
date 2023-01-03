@@ -11,6 +11,26 @@ It's simple to use inline markup to have *italic text*,
 
 ----
 
+Header underline
+================
+
+Header level 1
+==============
+
+Header level 2
+--------------
+
+Header level 3
+~~~~~~~~~~~~~~
+
+Header level 4
+""""""""""""""
+
+etc.
+
+
+----
+
 Lists
 =====
 
