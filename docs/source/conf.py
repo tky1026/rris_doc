@@ -68,4 +68,3 @@ html_static_path = ['_static']
 html_favicon = 'Asset/ntu-icon.png'
 html_style = 'css/my_theme.css'
 html_show_sourcelink = False
-html_context = {'display_github': False}
