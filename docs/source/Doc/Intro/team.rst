@@ -8,32 +8,6 @@ Team
 Staff
 =====
 
-.. _rris_staff_staff1:
-
-* Staff 1
-  
-  .. list-table::
-     :widths: 10 50
-     :stub-columns: 1
-
-     * - :icon:`link`
-       - ``rris_staff_staff1``
-     * - :icon:`mail`
-       - staff1@ntu.edu.sg
-
-.. _rris_staff_staff2:
-
-* Staff 2
-  
-  .. list-table::
-     :widths: 10 50
-     :stub-columns: 1
-
-     * - :icon:`link`
-       - ``rris_staff_staff2``
-     * - :icon:`mail`
-       - staff2@ntu.edu.sg
-
 .. _rris_staff_lilei:
 
 * **Li Lei (Dr)**
@@ -86,6 +60,32 @@ Staff
        - janne.yow@ntu.edu.sg
      * - :icon:`mark-github`
        - `janneyow <https://github.com/janneyow>`__
+
+.. _rris_staff_staff1:
+
+* Staff 1
+  
+  .. list-table::
+     :widths: 10 50
+     :stub-columns: 1
+
+     * - :icon:`link`
+       - ``rris_staff_staff1``
+     * - :icon:`mail`
+       - staff1@ntu.edu.sg
+
+.. _rris_staff_staff2:
+
+* Staff 2
+  
+  .. list-table::
+     :widths: 10 50
+     :stub-columns: 1
+
+     * - :icon:`link`
+       - ``rris_staff_staff2``
+     * - :icon:`mail`
+       - staff2@ntu.edu.sg
 
 ----
 
@@ -170,3 +170,4 @@ Contributors
 ------------
 
 * |rris_kuanyuee|
+* |rris_janne|
