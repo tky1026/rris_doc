@@ -66,6 +66,9 @@ Staff
        - kuanyuee.tan@ntu.edu.sg
      * - :icon:`mark-github`
        - `tky1026 <https://github.com/tky1026>`__
+     * - .. image:: ./_Asset/orcid.png
+            :scale: 65
+       - `0000-0002-8676-3716 <https://orcid.org/0000-0002-8676-3716>`__
 
 .. _rris_staff_janne:
 
