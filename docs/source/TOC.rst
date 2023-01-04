@@ -56,9 +56,9 @@ Table of Contents
 
 
 .. toctree::
-   :caption: Test
+   :caption: Meta
    :titlesonly:
 
-   Doc/Test/file1
-   Doc/Test/file2
-
+   Doc/Meta/reference.rst
+   Doc/Meta/license.rst
+   Doc/Meta/report.rst

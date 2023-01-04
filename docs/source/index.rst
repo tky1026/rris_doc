@@ -24,7 +24,13 @@ RRIS Intelligent Robotics's Documentation
 
 ----
 
-This documentation contains information about projects, packages, documentation contribution guide and formatting with reST and Sphinx.
+This documentation serves as a wiki to projects and packages, coding guidelines, and collection of resources.
+
+The documentation is meant for members of RRIS Intelligent Robotics Team only, as it may contain IP, original ideas, and confidential information. 
+
+.. attention:: 
+   
+   Please do not share and circulate the documentation to any parties external to RRIS, including collaborations, and FYP students.
 
 ----
 

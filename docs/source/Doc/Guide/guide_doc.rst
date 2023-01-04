@@ -5,9 +5,7 @@ Documentation Guide
 ===================
 
 This manual covers writing documentation. This includes, contributing to this documentation, documentation 
-writing guidelines, conventions, and provide links to `GitHub issues`_.
-
-.. _`GitHub issues`: https://github.com/tky1026/rris_doc/issues
+writing guidelines and conventions.
 
 ----
 
@@ -126,6 +124,7 @@ Read the following contribution guide on how to contribute to this documentation
 
    Documentation/doc_contrib
    Documentation/doc_boilerplate
+   Documentation/doc_report
 
 ----
 
